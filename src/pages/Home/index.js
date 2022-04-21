@@ -12,7 +12,12 @@ export default function Home(){
       <div className='title-sections'>
         <p className='brown-title'><b>as</b></p> <p className='orange-title'>streamers</p>
       </div>
-      <img src={fineLine} className='fine-line'/>
+      <div className='fine-line'>
+      <img src={fineLine}/>
+      </div>
+      <div className='streamers-home'>
+        
+      </div>
       <p>Parágrafo</p>
       <p>Parágrafo</p>
     </div>

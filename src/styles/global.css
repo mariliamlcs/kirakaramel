@@ -39,7 +39,7 @@ footer {
 .content {
     width: 100%;
     height: 100%;
-    margin: 10vh auto 10px;
+    margin: 4em auto 10px;
 }
 
 .icon {
@@ -67,4 +67,17 @@ footer {
 
 .fine-line {
     width: 5vw;
+    margin: auto;
+}
+.fine-line img {
+    width: 100%;
+}
+
+.streamers-home {
+    margin-top: 2vw;
+    width: 100%;
+    height: 15em;
+    background-image: radial-gradient(#F9DEAD,#EEA43D);
+    display: flex;
+    flex-direction: row;
 }
