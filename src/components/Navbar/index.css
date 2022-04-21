@@ -1,0 +1,26 @@
+.navbar, .navbar a{
+    width: 100%;
+    height: auto;
+    background-color: #EEA43D;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 1.6vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+}
+
+.navbar ul {
+    width: max-content;
+    display: flex;
+}
+.navbar ul li {
+    list-style: none;
+    padding: 1vw;
+}
+.logo-navbar img {
+    width: 10vw;
+}
