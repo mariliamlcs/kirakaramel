@@ -1,5 +1,6 @@
 import './index.css';
 import imgHome from '../../assets/bannerHome.png';
+import fineLine from '../../assets/fineLine.png';
 
 export default function Home(){
   return(
@@ -11,6 +12,7 @@ export default function Home(){
       <div className='title-sections'>
         <p className='brown-title'><b>as</b></p> <p className='orange-title'>streamers</p>
       </div>
+      <img src={fineLine} className='fine-line'/>
       <p>Parágrafo</p>
       <p>Parágrafo</p>
     </div>

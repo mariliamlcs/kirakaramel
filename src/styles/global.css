@@ -55,7 +55,7 @@ footer {
 }
 .title-sections p {
     width: max-content;
-    margin: 0px .5vw 0px 0px;
+    margin: 0px .5vw .5vw 0px;
 }
 
 .brown-title {
@@ -63,4 +63,8 @@ footer {
 }
 .orange-title {
     color: #F4BD5B;
+}
+
+.fine-line {
+    width: 5vw;
 }
