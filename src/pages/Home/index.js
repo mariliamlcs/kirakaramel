@@ -8,7 +8,9 @@ export default function Home(){
       <img src={imgHome} />
     </div>
     <div className='content'>
-      <h1>Page Home</h1>
+      <div className='title-sections'>
+        <p className='brown-title'><b>as</b></p> <p className='orange-title'>streamers</p>
+      </div>
       <p>Parágrafo</p>
       <p>Parágrafo</p>
     </div>
