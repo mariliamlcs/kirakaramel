@@ -45,39 +45,3 @@ footer {
 .icon {
     width: 2vw;
 }
-
-.title-sections {
-    text-transform: uppercase;
-    display: flex;
-    margin: auto;
-    font-size: 2vw;
-    justify-content: center;
-}
-.title-sections p {
-    width: max-content;
-    margin: 0px .5vw .5vw 0px;
-}
-
-.brown-title {
-    color: #5C282C;
-}
-.orange-title {
-    color: #F4BD5B;
-}
-
-.fine-line {
-    width: 5vw;
-    margin: auto;
-}
-.fine-line img {
-    width: 100%;
-}
-
-.streamers-home {
-    margin-top: 2vw;
-    width: 100%;
-    height: 15em;
-    background-image: radial-gradient(#F9DEAD,#EEA43D);
-    display: flex;
-    flex-direction: row;
-}
