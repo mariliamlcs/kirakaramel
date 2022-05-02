@@ -1,12 +1,9 @@
 html, body {
     background-color: #fff;
     color: #797979;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 1.5vw;
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -14,6 +11,8 @@ html, body {
 
 main {
     max-height: 100%;
+    height: 100%;
+    display: contents;
 }
 
 img {
@@ -46,10 +45,24 @@ footer {
 
 .content {
     width: 100%;
-    height: 100%;
-    margin: 4em auto 10px;
+    margin: 4em auto;
 }
 
 .icon {
     width: 2vw;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.brown-text {
+    color: #5C282C;
+}
+.orange-text {
+    color: #F4BD5B;
+}
+
+input:focus {
+    outline: none;
 }

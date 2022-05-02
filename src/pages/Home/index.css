@@ -20,13 +20,6 @@
     margin: 0px .5vw .5vw 0px;
 }
 
-.brown-text {
-    color: #5C282C;
-}
-.orange-text {
-    color: #F4BD5B;
-}
-
 .fine-line {
     width: 5vw;
     margin: auto;
@@ -45,12 +38,21 @@
     justify-content: center;
 }
 
+.section-home {
+    background-image: url('../../assets/estrela.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 2vw;
+}
+
 .title-welcome {
     width: 80%;
-    margin: 10vw auto 0;
+    margin: 2vw auto 0;
     text-transform: uppercase; 
     display: flex;
     flex-direction: row;
+    padding-top: 10vw;
 }
 .title-welcome h1 {
     font-size: 2.5vw;
@@ -58,9 +60,65 @@
 }
 .text-welcome {
     display: flex;
+    flex-direction: column;
     width: 80%;
     margin: auto;
+    padding-bottom: 2vw;
 }
 .text-welcome p {
-    width: 40%;
+    width: 50%;
+}
+
+.button-marrom {
+    width: fit-content;
+    color: #fff;
+    background-color: #5C282C;
+    padding: 1vw 6vw;
+    border-radius: 1vw;
+    text-transform: uppercase;
+    font-weight: 300;
+    transition: .8s;
+}
+
+.button-marrom:hover {
+    opacity: 80%;
+}
+
+.section-newsletter {
+    background-color: #F9DEAD;
+    width: 100%;
+    margin: 4vw 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4vw 0;
+}
+
+.title-newsletter {
+    color: #5C282C;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.input-newsletter {
+    color: #797979;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px #fff solid;
+    margin: 2vw auto;
+    padding: .5vw;
+    font-size: 1vw;
+    width: 100%;
+}
+
+.send-button {
+    background-color: #EEA43D;
+    color: #fff;
+    text-transform: uppercase;
+    padding: .5vw 6vw;
+    border-radius: 1vw;
+    width: fit-content;
+    margin: auto;
+    transition: .8s;
+    font-weight: 300;
 }
