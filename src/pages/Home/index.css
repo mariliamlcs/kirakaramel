@@ -15,14 +15,15 @@
     justify-content: center;
 }
 .title-sections p {
+    font-size: 2.5vw;
     width: max-content;
     margin: 0px .5vw .5vw 0px;
 }
 
-.brown-title {
+.brown-text {
     color: #5C282C;
 }
-.orange-title {
+.orange-text {
     color: #F4BD5B;
 }
 
@@ -41,7 +42,25 @@
     background-image: radial-gradient(#F9DEAD,#EEA43D);
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
-.icon-streamers {
+
+.title-welcome {
     width: 80%;
+    margin: 10vw auto 0;
+    text-transform: uppercase; 
+    display: flex;
+    flex-direction: row;
+}
+.title-welcome h1 {
+    font-size: 2.5vw;
+    margin: 0;
+}
+.text-welcome {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.text-welcome p {
+    width: 40%;
 }
