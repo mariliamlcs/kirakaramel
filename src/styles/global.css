@@ -66,3 +66,17 @@ footer {
 input:focus {
     outline: none;
 }
+
+.title-sections {
+    text-transform: uppercase;
+    display: flex;
+    margin: auto;
+    font-size: 2vw;
+    justify-content: center;
+    font-weight: 300;
+}
+.title-sections p {
+    font-size: 2.5vw;
+    width: max-content;
+    margin: 0px .5vw .5vw 0px;
+}

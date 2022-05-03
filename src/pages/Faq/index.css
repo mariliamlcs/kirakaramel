@@ -1,0 +1,20 @@
+h1.faq-title {
+    margin: 0;
+}
+
+.estrelinha {
+    width: 1vw;
+    height: auto;
+    margin: 0 .2vw;
+    display: flex;
+    align-items: center;
+
+}
+
+.linha-marrom {
+    border: 2px solid #5C282C;
+}
+
+.linha-rose {
+    border: 2px solid #FFCDBB;
+}
