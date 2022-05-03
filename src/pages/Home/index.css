@@ -38,9 +38,10 @@
     justify-content: center;
 }
 
+
 .section-home {
     background-image: url('../../assets/estrela.png');
-    background-size: 50%;
+    background-size: 48%;
     background-repeat: no-repeat;
     background-position: right;
     padding: 2vw;
@@ -89,9 +90,12 @@
     width: 100%;
     margin: 4vw 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 4vw 0;
+    padding: 0;
+}
+.section-newsletter div {
+    padding-left: 2vw;
 }
 
 .title-newsletter {
@@ -121,4 +125,11 @@
     margin: auto;
     transition: .8s;
     font-weight: 300;
+}
+
+.bear {
+    width: 42vw;
+    margin-top: -4%;
+    margin-bottom: -3%;
+    padding: 0;
 }

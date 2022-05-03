@@ -4,6 +4,7 @@ import fineLine from '../../assets/fineLine.png';
 import iconGio from '../../assets/gio.png';
 import iconPamy from '../../assets/pamy.png';
 import iconSunny from '../../assets/sunny.png';
+import newsletterBear from '../../assets/newsletterBear.png';
 import { Link } from 'react-router-dom';
 
 export default function Home(){
@@ -47,7 +48,7 @@ export default function Home(){
     <a href='/' className='send-button'>enviar mensagem</a>
     </div>
     <div>
-     ursinho
+    <img src={newsletterBear} alt='' className='bear'/>
     </div>
   </div>
 
