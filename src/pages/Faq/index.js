@@ -1,6 +1,7 @@
 import './index.css';
 import estrelinha from '../../assets/estrelinha.png';
 import Item from './Item';
+import bannerFAQ from '../../assets/bannerFAQ.png';
 
 export default function Faq(){
     return(
@@ -48,6 +49,10 @@ export default function Faq(){
             question="What does kira kara provide their creators?"
             answer="Voluptate do consequat velit eu eu commodo nostrud."
         />
+        </div>
+
+        <div className='banner-FAQ'>
+        <img src={bannerFAQ} alt=''/>
         </div>
     </div>
     </>
