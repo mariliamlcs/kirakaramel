@@ -1,6 +1,6 @@
 import './index.css';
 import estrelinha from '../../assets/estrelinha.png';
-import Collapsible from 'react-collapsible';
+import Item from './Item';
 
 export default function Faq(){
     return(
@@ -16,9 +16,7 @@ export default function Faq(){
         <hr className='linha-marrom'/>
         <hr className='linha-rose'/>
 
-        <Collapsible trigger="Clique aqui">
-            <p>Non officia consectetur nostrud velit laboris ipsum ullamco elit cillum Lorem ut dolore nulla.</p>
-        </Collapsible>
+        
     </div>
     </>
     )
