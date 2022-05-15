@@ -80,3 +80,11 @@ input:focus {
     width: max-content;
     margin: 0px .5vw .5vw 0px;
 }
+
+.linha-marrom {
+    border: 2px solid #5C282C;
+}
+
+.linha-rose {
+    border: 2px solid #FFCDBB;
+}

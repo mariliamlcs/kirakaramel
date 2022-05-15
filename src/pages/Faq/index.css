@@ -11,14 +11,6 @@ h1.faq-title {
 
 }
 
-.linha-marrom {
-    border: 2px solid #5C282C;
-}
-
-.linha-rose {
-    border: 2px solid #FFCDBB;
-}
-
 .question-faq, .Collapsible__trigger.is-open {
     color: #fff ;
     font-weight: 500;

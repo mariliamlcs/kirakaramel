@@ -1,8 +1,10 @@
+import './index.css';
+
 export default function Streamer ({name, picture, about}) {
     return (
-        <div>
+        <div className='streamer-right'>
             <div>
-                <h2>{name}</h2>
+                <h2 >{name}</h2>
                 <p>{about}</p>
             </div>
             <div>
