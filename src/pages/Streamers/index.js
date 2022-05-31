@@ -2,8 +2,8 @@ import './index.css';
 import StreamerRight from "./StreamerRight";
 import StreamerLeft from "./StreamerLeft";
 import fineLine from '../../assets/fineLine.png';
-import sunnyImg from "../../assets/sunny.png";
-import gioImg from "../../assets/gio.png";
+import fundo from "../../assets/fundo.png";
+import fundo2 from "../../assets/fundo2.png";
 
 export default function Streamers(){
 return(
@@ -19,23 +19,32 @@ return(
     </div>
 
     <div className="streamers">
+    <div className='streamer-right'>
     <StreamerRight 
         name="Sunny"
         about="Ut ut laborum aute Lorem laborum. Excepteur nisi laborum quis fugiat laborum ullamco officia magna sint ut. Aute ea laboris deserunt veniam qui ipsum nulla voluptate ipsum tempor est elit cillum in."
-        picture={sunnyImg}
+        picture={fundo}
+        agenda="Tal"
     />
+    </div>
 
+    <div className='streamer-left'>
     <StreamerLeft
         name="Gio"
         about="Do aute dolor do ut sunt sunt amet anim cupidatat. Incididunt aute non cillum ullamco tempor exercitation qui do non irure do. Proident mollit sit enim voluptate magna consectetur labore eu est eu."
-        picture={gioImg}
+        picture={fundo2}
+        agenda="Tal 2"
     />
+    </div>
 
+    <div className='streamer-right'>
     <StreamerRight 
-        name="Sunny"
+        name="xxx"
         about="Lorem ipsum"
-        picture={sunnyImg}
+        picture={fundo}
+        agenda="Tal 3"
     />
+    </div>
     </div>
 </div>
 </>
