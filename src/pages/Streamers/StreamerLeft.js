@@ -8,7 +8,7 @@ export default function StreamerLeft ({name, picture, about, agenda}) {
                 <img src={picture} alt={name} />
             </div>
             <div>
-                <h2 >{name}</h2>
+                <h2>{name}</h2>
                 <p>{about}</p>
                 <h3>Agenda de lives</h3>
                 <p>{agenda}</p>
