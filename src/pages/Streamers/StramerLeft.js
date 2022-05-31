@@ -1,8 +1,8 @@
 import './index.css';
 
-export default function Streamer ({name, picture, about}) {
+export default function StreamerLeft ({name, picture, about}) {
     return (
-        <div className='streamer-right'>
+        <div className='flex'>
             <div>
                 <h2 >{name}</h2>
                 <p>{about}</p>
