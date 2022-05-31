@@ -1,0 +1,58 @@
+.title-sections.pessoal {
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+h3 {
+    color: #5C282C;
+}
+
+.container1 {
+    color: #fff;
+    font-size: small;
+    background-color: #F4BD5B;
+    width: 85%;
+    padding-top: 4vw;
+    padding-left: 4vw;
+    margin: 6vw auto 0px 0px;
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.about-me-list {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.about-me-list ul {
+    list-style: none;
+    padding: 0;
+}
+.about-me-list ul li b {
+    color: #5C282C;
+    font-weight: 600;
+}
+
+.imagem-1 {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: -5vw;
+}
+.imagem-1 img {
+    width: 100%;
+    height: auto;
+}
+
+.sm-title {
+    margin-bottom: 0;
+}
+
+.social-media {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    column-gap: 1em;
+    margin: 0;
+}
