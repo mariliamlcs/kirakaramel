@@ -92,11 +92,12 @@ h3 {
 }
 .container3 h3 {
     color: #F4BD5B;
+    margin-right: 4vw;
 }
 .titulo-agenda {
     display: flex;
     width: 50%;
-    justify-content: space-around;
+    justify-content: center;
 }
 .titulo-agenda img {
     height: auto;
