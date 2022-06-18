@@ -23,6 +23,9 @@
     float: right;
     color: #B0B0B0;
     text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
 .read-more img {
     width: .7vw;
@@ -34,4 +37,10 @@
 }
 .streamer-left {
     padding-right: 10%;
+}
+.streamer-right .read-more {
+    justify-content: flex-start;
+}
+.streamer-left .read-more {
+    justify-content: flex-end;
 }

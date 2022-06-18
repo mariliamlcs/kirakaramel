@@ -1,10 +1,11 @@
 import { Link } from 'react-router-dom';
 import './index.css';
-import StreamerRight from "./StreamerRight";
-import StreamerLeft from "./StreamerLeft";
 import fineLine from '../../assets/fineLine.png';
 import fundo from "../../assets/fundo.png";
 import fundo2 from "../../assets/fundo2.png";
+import readMore from "../../assets/rmore.png";
+import DateSunny from "../../components/DateSunny/DateSunny";
+
 
 export default function Streamers(){
 return(
@@ -21,28 +22,51 @@ return(
 
 <div className="streamers">
     <div className='streamer-right'>
-    <StreamerRight 
-        name="Sunny"
-        about="Ut ut laborum aute Lorem laborum. Excepteur nisi laborum quis fugiat laborum ullamco officia magna sint ut. Aute ea laboris deserunt veniam qui ipsum nulla voluptate ipsum tempor est elit cillum in."
-        picture={fundo}
-    />
+    <div className='flex'>
+    <div>
+        <h2>Pamy</h2>
+        <p>Do aute dolor do ut sunt sunt amet anim cupidatat. Incididunt aute non cillum ullamco tempor exercitation qui do non irure do. Proident mollit sit enim voluptate magna consectetur labore eu est eu.</p>
+        <h3>Agenda de lives</h3>
+    </div>
+    <div>
+        <img src="" alt=""/>
+    </div>
+    <DateSunny />
+    <p className='read-more'>Saiba mais <img src={readMore}></img></p>
+    <div></div>
+    </div>
     </div>
 
     <div className='streamer-left'>
-    <StreamerLeft
-        name="Gio"
-        about="Do aute dolor do ut sunt sunt amet anim cupidatat. Incididunt aute non cillum ullamco tempor exercitation qui do non irure do. Proident mollit sit enim voluptate magna consectetur labore eu est eu."
-        picture={fundo2}
-    />
+    <div className='flex'>
+    <div>
+        <h2>Pamy</h2>
+        <p>Do aute dolor do ut sunt sunt amet anim cupidatat. Incididunt aute non cillum ullamco tempor exercitation qui do non irure do. Proident mollit sit enim voluptate magna consectetur labore eu est eu.</p>
+        <h3>Agenda de lives</h3>
+    </div>
+    <div>
+        <img src="" alt=""/>
+    </div>
+    <DateSunny />
+    <p className='read-more'>Saiba mais <img src={readMore}></img></p>
+    <div></div>
+    </div>
     </div>
 
     <div className='streamer-right'>
-    <StreamerRight 
-        name="Pamy"
-        about="Do aute dolor do ut sunt sunt amet anim cupidatat. Incididunt aute non cillum ullamco tempor exercitation qui do non irure do. Proident mollit sit enim voluptate magna consectetur labore eu est eu."
-        picture={fundo}
-    />
-    
+    <div className='flex'>
+    <div>
+        <h2>Pamy</h2>
+        <p>Do aute dolor do ut sunt sunt amet anim cupidatat. Incididunt aute non cillum ullamco tempor exercitation qui do non irure do. Proident mollit sit enim voluptate magna consectetur labore eu est eu.</p>
+        <h3>Agenda de lives</h3>
+    </div>
+    <div>
+        <img src="" alt=""/>
+    </div>
+    <DateSunny />
+    <p className='read-more'>Saiba mais <img src={readMore}></img></p>
+    <div></div>
+    </div>
     </div>
 
 </div>

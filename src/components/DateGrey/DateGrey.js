@@ -1,4 +1,4 @@
-import './index.css';
+import '../DateOrange/index.css/';
 
 export default function DateGrey ({day, hour}) {
     return (
