@@ -5,10 +5,9 @@ export default function StreamerRight ({name, picture, about, agenda}) {
     return (
         <div className='flex'>
             <div>
-                <h2 >{name}</h2>
+                <h2>{name}</h2>
                 <p>{about}</p>
                 <h3>Agenda de lives</h3>
-                <p>{agenda}</p>
                 <p className='read-more'>Saiba mais <img src={readMore}></img></p>
             </div>
             <div>

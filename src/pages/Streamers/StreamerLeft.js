@@ -11,8 +11,7 @@ export default function StreamerLeft ({name, picture, about, agenda}) {
                 <h2>{name}</h2>
                 <p>{about}</p>
                 <h3>Agenda de lives</h3>
-                <p>{agenda}</p>
-                <p className='read-more'>Saiba mais <img src={readMore}></img></p>
+            <p className='read-more'>Saiba mais <img src={readMore}></img></p>
             </div>
         </div>
     )
