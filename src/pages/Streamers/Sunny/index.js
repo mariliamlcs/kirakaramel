@@ -62,32 +62,17 @@ export default function Sunny(){
         </div>
         <div className='agenda-dias'>
         <div>
-        <DateSim 
+        <DateNao 
             day="Segunda"
-            hour="00:00 PM"
         />
         <DateSim 
             day="Terça"
             hour="00:00 PM"
         />
-        <DateNao 
-            day="Quarta"
-        />
-        <DateNao 
-            day="Quinta"
-        />
         </div>
         <div>
         <DateNao 
             day="Sexta"
-        />
-        <DateSim 
-            day="Sábado"
-            hour="00:00 PM"
-        />
-        <DateSim 
-            day="Domingo"
-            hour="00:00 PM"
         />
         </div>
         </div>
