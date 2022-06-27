@@ -4,8 +4,6 @@ import fineLine from '../../assets/fineLine.png';
 import fundo from "../../assets/fundo.png";
 import fundo2 from "../../assets/fundo2.png";
 import readMore from "../../assets/rmore.png";
-import DateSunny from "../../components/DateSunny/DateSunny";
-
 
 export default function Streamers(){
 return(
@@ -27,12 +25,11 @@ return(
         <h2>Pamy</h2>
         <p>Do aute dolor do ut sunt sunt amet anim cupidatat. Incididunt aute non cillum ullamco tempor exercitation qui do non irure do. Proident mollit sit enim voluptate magna consectetur labore eu est eu.</p>
         <h3>Agenda de lives</h3>
+    <p className='read-more'>Saiba mais <img src={readMore}></img></p>
     </div>
     <div>
-        <img src="" alt=""/>
+        <img src={fundo} alt=""/>
     </div>
-    <DateSunny />
-    <p className='read-more'>Saiba mais <img src={readMore}></img></p>
     <div></div>
     </div>
     </div>
@@ -40,15 +37,21 @@ return(
     <div className='streamer-left'>
     <div className='flex'>
     <div>
-        <h2>Pamy</h2>
-        <p>Do aute dolor do ut sunt sunt amet anim cupidatat. Incididunt aute non cillum ullamco tempor exercitation qui do non irure do. Proident mollit sit enim voluptate magna consectetur labore eu est eu.</p>
-        <h3>Agenda de lives</h3>
+        <img src={fundo2} alt=""/>
     </div>
     <div>
-        <img src="" alt=""/>
-    </div>
-    <DateSunny />
+        <h2>Pamy2</h2>
+        <p>Do aute dolor do ut sunt sunt amet anim cupidatat. Incididunt aute non cillum ullamco tempor exercitation qui do non irure do. Proident mollit sit enim voluptate magna consectetur labore eu est eu.</p>
+        <h3>Agenda de lives</h3>
     <p className='read-more'>Saiba mais <img src={readMore}></img></p>
+    </div>
+    <div></div>
+    </div>
+    </div>
+
+    <div className='streamer-right'>
+    <div className='flex'>
+    
     <div></div>
     </div>
     </div>
@@ -56,15 +59,14 @@ return(
     <div className='streamer-right'>
     <div className='flex'>
     <div>
-        <h2>Pamy</h2>
+        <h2>Pamy3</h2>
         <p>Do aute dolor do ut sunt sunt amet anim cupidatat. Incididunt aute non cillum ullamco tempor exercitation qui do non irure do. Proident mollit sit enim voluptate magna consectetur labore eu est eu.</p>
         <h3>Agenda de lives</h3>
+    <p className='read-more'>Saiba mais <img src={readMore}></img></p>
     </div>
     <div>
-        <img src="" alt=""/>
+        <img src={fundo} alt=""/>
     </div>
-    <DateSunny />
-    <p className='read-more'>Saiba mais <img src={readMore}></img></p>
     <div></div>
     </div>
     </div>
