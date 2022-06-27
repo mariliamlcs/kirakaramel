@@ -1,4 +1,14 @@
 .item-agenda-grey {
-    width: max-content;
+    min-width: 50px;
+    min-height: 50px;
+    width: auto;
     border-radius: 20px;
+    background-color: #C4C4C4;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: .1em;
+    display: flex;
+    align-items: center;
+    padding: 1vw;
 }

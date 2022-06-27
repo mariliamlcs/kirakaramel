@@ -4,6 +4,8 @@ import fineLine from '../../assets/fineLine.png';
 import fundo from "../../assets/fundo.png";
 import fundo2 from "../../assets/fundo2.png";
 import readMore from "../../assets/rmore.png";
+import DateGrey from '../../components/DateGrey//DateGrey'; 
+import DateOrange from '../../components/DateOrange/DateOrange';
 
 export default function Streamers(){
 return(
@@ -25,7 +27,34 @@ return(
         <h2>Pamy</h2>
         <p>Do aute dolor do ut sunt sunt amet anim cupidatat. Incididunt aute non cillum ullamco tempor exercitation qui do non irure do. Proident mollit sit enim voluptate magna consectetur labore eu est eu.</p>
         <h3>Agenda de lives</h3>
-    <p className='read-more'>Saiba mais <img src={readMore}></img></p>
+        <div className='agenda-streamer'>
+        <DateOrange 
+            day="Segunda"
+            hour="00:00 PM"
+        />
+        <DateOrange 
+            day="Terça"
+            hour="00:00 PM"
+        />
+        <DateGrey 
+            day="Quarta"
+        />
+        <DateGrey 
+            day="Quinta"
+        />
+        <DateGrey 
+            day="Sexta"
+        />
+        <DateOrange 
+            day="Sábado"
+            hour="00:00 PM"
+        />
+        <DateOrange 
+            day="Domingo"
+            hour="00:00 PM"
+        />
+        </div>
+        <p className='read-more'>Saiba mais <img src={readMore}></img></p>
     </div>
     <div>
         <img src={fundo} alt=""/>

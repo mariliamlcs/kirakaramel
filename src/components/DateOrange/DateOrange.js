@@ -4,7 +4,7 @@ export default function DateOrange ({day, hour}) {
     return (
     <div class="item-agenda-orange">
     <p>{day}</p>
-    <p>{hour}</p>
+    <p className='hour'>{hour}</p>
     </div>
     )
 }
