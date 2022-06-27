@@ -102,3 +102,16 @@ h3 {
 .titulo-agenda img {
     height: auto;
 }
+
+.setinha { 
+    background-image: url('../../../assets/agenda-seta.png');
+    width: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.agenda-dias {
+    display: flex;
+    flex-direction: column;
+}

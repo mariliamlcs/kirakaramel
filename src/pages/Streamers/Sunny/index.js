@@ -2,7 +2,9 @@ import './index.css';
 import linhaLaranja from '../../../assets/linhalaranja.png';
 import sunnyImg1 from '../../../assets/sunny-pessoal.png';
 import sunnyImg2 from '../../../assets/sunny-video-icon.png';
-import setinha from '../../../assets/agenda-seta.png';
+import DateSim from '../../../components/DateSim/DateSim';
+import DateNao from '../../../components/DateNao/DateNao';
+
 
 export default function Sunny(){
     return(
@@ -56,10 +58,38 @@ export default function Sunny(){
     <div className='container3'>
         <div className='titulo-agenda'>
             <h3>Agenda</h3>
-            <img src={setinha} alt="seta para a direita"/>
+            <div className='setinha'></div>
+        </div>
+        <div className='agenda-dias'>
+        <div>
+        <DateSim 
+            day="Segunda"
+            hour="00:00 PM"
+        />
+        <DateSim 
+            day="Terça"
+            hour="00:00 PM"
+        />
+        <DateNao 
+            day="Quarta"
+        />
+        <DateNao 
+            day="Quinta"
+        />
         </div>
         <div>
-            itens
+        <DateNao 
+            day="Sexta"
+        />
+        <DateSim 
+            day="Sábado"
+            hour="00:00 PM"
+        />
+        <DateSim 
+            day="Domingo"
+            hour="00:00 PM"
+        />
+        </div>
         </div>
     </div>
 </div>
