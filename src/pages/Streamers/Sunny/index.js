@@ -4,7 +4,7 @@ import sunnyImg1 from '../../../assets/sunny-pessoal.png';
 import sunnyImg2 from '../../../assets/sunny-video-icon.png';
 import DateSim from '../../../components/DateSim/DateSim';
 import DateNao from '../../../components/DateNao/DateNao';
-
+import sunnyChibi from '../../../assets/sunny-mini.png';
 
 export default function Sunny(){
     return(
@@ -61,7 +61,7 @@ export default function Sunny(){
             <div className='setinha'></div>
         </div>
         <div className='agenda-dias'>
-        <div>
+        <div className='row'>
         <DateNao 
             day="Segunda"
         />
@@ -69,13 +69,29 @@ export default function Sunny(){
             day="Terça"
             hour="00:00 PM"
         />
+        <DateSim 
+            day="Quarta"
+            hour="00:00 PM"
+        />
+        <DateSim 
+            day="Quinta"
+            hour="00:00 PM"
+        />
         </div>
-        <div>
+        <div className='row'>
         <DateNao 
             day="Sexta"
         />
+        <DateSim 
+            day="Sábado"
+            hour="00:00 PM"
+        />
+        <DateNao 
+            day="Domingo"
+        />
         </div>
         </div>
+        
     </div>
 </div>
 )

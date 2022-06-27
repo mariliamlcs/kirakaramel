@@ -83,12 +83,14 @@ h3 {
 
 .container3 {
     width: 100%;
+    max-width: 100%;
     background-color: #5C282C;
     display: flex;
-    padding: 2vw 0;
+    padding: 2vw 3vw;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     align-content: center;
+    column-gap: 2vw;
 }
 .container3 h3 {
     color: #F4BD5B;
@@ -96,8 +98,8 @@ h3 {
 }
 .titulo-agenda {
     display: flex;
-    width: 50%;
-    justify-content: center;
+    width: 20%;
+    justify-content: flex-end;
 }
 .titulo-agenda img {
     height: auto;
@@ -105,7 +107,7 @@ h3 {
 
 .setinha { 
     background-image: url('../../../assets/agenda-seta.png');
-    width: 30%;
+    width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -114,4 +116,14 @@ h3 {
 .agenda-dias {
     display: flex;
     flex-direction: column;
+    width: 50%;
+    padding: 1vw;
+}
+
+.chibi-icon {
+   position: absolute;
+    width: 15%;
+    right: 0;
+    margin-top: 6vw;
+    margin-right: 13vw;
 }

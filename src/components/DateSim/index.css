@@ -1,11 +1,17 @@
+.row {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 1vw;
+    column-gap: 1vw;
+}
 .item-agenda2 {
-    min-width: 50px;
+    min-width: 80px;
     min-height: 50px;
     width: auto;
     height: auto;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: #EEA43D;
-    border-radius: 20px;
     color: #fff;
     font-weight: 600;
     letter-spacing: .1em;
@@ -13,7 +19,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    padding: 1vw;
+    padding: 1.5vw;
 }
 p {
     font-weight: 600;
