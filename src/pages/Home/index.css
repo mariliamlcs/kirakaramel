@@ -28,10 +28,10 @@
 
 .section-home {
     background-image: url('../../assets/estrela.png');
-    background-size: 48%;
+    background-size: 42%;
     background-repeat: no-repeat;
     background-position: right;
-    padding: 2vw;
+    padding: 2.6vw;
 }
 
 .title-welcome {
