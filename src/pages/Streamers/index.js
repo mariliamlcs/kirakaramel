@@ -62,7 +62,6 @@ return(
     <div>
         <img src={fundo} alt=""/>
     </div>
-    <div></div>
     </div>
     </div>
 
@@ -98,7 +97,7 @@ return(
         />
         <DateOrange 
             day={i18n.t('titles.saturday')}
-            hour="20:00 PM"
+            hour="08:00 PM"
         />
         <DateOrange 
             day={i18n.t('titles.sunday')}
@@ -107,17 +106,10 @@ return(
         </div>
     <p className='read-more'>{i18n.t('messages.readMore')} <img src={readMore} alt=""></img></p>
     </div>
-    <div></div>
     </div>
     </div>
 
-    <div className='streamer-right'>
-    <div className='flex'>
-    
-    <div></div>
-    </div>
-    </div>
-
+{/*HANAKO*/}
     <div className='streamer-right'>
     <div className='flex'>
     <div>
@@ -158,7 +150,188 @@ return(
     <div>
         <img src={fundo} alt=""/>
     </div>
-    <div></div>
+    </div>
+    </div>
+
+{/*GIO*/}
+<div className='streamer-left'>
+    <div className='flex'>
+    <div>
+        <img src={fundo2} alt=""/>
+    </div>
+    <div>
+        <h2>Gio</h2>
+        <p>{i18n.t('messages.aboutGio')}</p>
+        <h3>{i18n.t('titles.streamSchedule')}</h3>
+        <div className='agenda-streamer'>
+        
+        <DateGrey 
+            day={i18n.t('titles.monday')}
+        />
+        <DateOrange 
+            day={i18n.t('titles.tuesday')}
+            hour="05:00 PM"
+        />
+        <DateGrey 
+            day={i18n.t('titles.wednesday')}
+        />
+        <DateOrange 
+            day={i18n.t('titles.thursday')}
+            hour="05:00 PM"
+        />
+        <DateGrey 
+            day={i18n.t('titles.friday')}
+        />
+        <DateOrange 
+            day={i18n.t('titles.saturday')}
+            hour="05:00 PM"
+        />
+        <DateOrange 
+            day={i18n.t('titles.sunday')}
+            hour="05:00 PM"
+        />
+        </div>
+    <p className='read-more'>{i18n.t('messages.readMore')} <img src={readMore} alt=""></img></p>
+    </div>
+    </div>
+    </div>
+
+{/*MING*/}
+<div className='streamer-right'>
+    <div className='flex'>
+    <div>
+        <h2>Ming</h2>
+        <p>{i18n.t('messages.aboutMing')}</p>
+        <h3>{i18n.t('titles.streamSchedule')}</h3>
+        <div className='agenda-streamer'>
+        
+        <DateOrange 
+            day={i18n.t('titles.monday')}
+            hour="08:00 PM"
+        />
+        <DateOrange 
+            day={i18n.t('titles.tuesday')}
+            hour="08:00 PM"
+        />
+        <DateOrange 
+            day={i18n.t('titles.wednesday')}
+            hour="10:00 PM"
+        />
+        <DateOrange 
+            day={i18n.t('titles.tuesday')}
+            hour="08:00 PM"
+        />
+        <DateOrange 
+            day={i18n.t('titles.friday')}
+            hour="10:00 PM"
+        />
+        <DateOrange 
+            day={i18n.t('titles.saturday')}
+            hour="04:00 PM"
+        />
+        <DateOrange 
+            day={i18n.t('titles.tuesday')}
+            hour="04:00 PM"
+        />
+        </div>
+    <p className='read-more'>{i18n.t('messages.readMore')} <img src={readMore} alt=""></img></p>
+    </div>
+    <div>
+        <img src={fundo} alt=""/>
+    </div>
+    </div>
+    </div>
+
+
+{/*SUNNY*/}
+<div className='streamer-left'>
+    <div className='flex'>
+    <div>
+        <img src={fundo2} alt=""/>
+    </div>
+    <div>
+        <h2>Sunny</h2>
+        <p>{i18n.t('messages.aboutSunny')}</p>
+        <h3>{i18n.t('titles.streamSchedule')}</h3>
+        <div className='agenda-streamer'>
+        <DateOrange 
+            day={i18n.t('titles.monday')}
+            hour="08:00 PM"
+        />
+        <DateOrange 
+            day={i18n.t('titles.tuesday')}
+            hour="08:00 PM"
+        />
+        <DateOrange 
+            day={i18n.t('titles.wednesday')}
+            hour="10:00 PM"
+        />
+        <DateOrange 
+            day={i18n.t('titles.tuesday')}
+            hour="08:00 PM"
+        />
+        <DateOrange 
+            day={i18n.t('titles.friday')}
+            hour="10:00 PM"
+        />
+        <DateOrange 
+            day={i18n.t('titles.saturday')}
+            hour="04:00 PM"
+        />
+        <DateOrange 
+            day={i18n.t('titles.tuesday')}
+            hour="04:00 PM"
+        />
+        </div>
+    <p className='read-more'>{i18n.t('messages.readMore')} <img src={readMore} alt=""></img></p>
+    </div>
+    </div>
+    </div>
+
+
+{/*YNASSHI*/}
+<div className='streamer-right'>
+    <div className='flex'>
+    <div>
+        <h2>Ynasshi</h2>
+        <p>{i18n.t('messages.aboutYnasshi')}</p>
+        <h3>{i18n.t('titles.streamSchedule')}</h3>
+        <div className='agenda-streamer'>
+        
+        <DateOrange 
+            day={i18n.t('titles.monday')}
+            hour="07:00 PM"
+        />
+        <DateOrange 
+            day={i18n.t('titles.tuesday')}
+            hour="07:00 PM"
+        />
+        <DateOrange 
+            day={i18n.t('titles.wednesday')}
+            hour="07:00 PM"
+        />
+        <DateOrange 
+            day={i18n.t('titles.thursday')}
+            hour="07:00 PM"
+        />
+        <DateOrange 
+            day={i18n.t('titles.friday')}
+            hour="07:00 PM"
+        />
+        <DateOrange 
+            day={i18n.t('titles.saturday')}
+            hour="07:00 PM"
+        />
+        <DateOrange 
+            day={i18n.t('titles.sunday')}
+            hour="07:00 PM"
+        />        
+        </div>
+    <p className='read-more'>{i18n.t('messages.readMore')} <img src={readMore} alt=""></img></p>
+    </div>
+    <div>
+        <img src={fundo} alt=""/>
+    </div>
     </div>
     </div>
 
