@@ -6,7 +6,7 @@ import DateSim from '../../../components/DateSim/DateSim';
 import DateNao from '../../../components/DateNao/DateNao';
 import sunnyChibi from '../../../assets/sunny-mini.png';
 
-export default function Gio(){
+export default function Hanako(){
     return(
 <div className="content">
     <div className='title-sections pessoal'>
