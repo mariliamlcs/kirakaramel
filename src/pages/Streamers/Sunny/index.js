@@ -1,4 +1,4 @@
-import './index.css';
+import '.././page.css';
 import linhaLaranja from '../../../assets/linhalaranja.png';
 import sunnyImg1 from '../../../assets/sunny-pessoal.png';
 import sunnyImg2 from '../../../assets/sunny-video-icon.png';
