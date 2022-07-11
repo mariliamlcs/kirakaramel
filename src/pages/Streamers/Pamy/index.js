@@ -1,16 +1,16 @@
 import '.././page.css';
 import linhaLaranja from '../../../assets/linhalaranja.png';
-import sunnyImg1 from '../../../assets/sunny-pessoal.png';
-import sunnyImg2 from '../../../assets/sunny-video-icon.png';
+import pamyImg1 from '../../../assets/pamy-pessoal.png';
+import pamyImg2 from '../../../assets/pamy-video-icon.png';
 import DateSim from '../../../components/DateSim/DateSim';
 import DateNao from '../../../components/DateNao/DateNao';
-import sunnyChibi from '../../../assets/sunny-mini.png';
+import pamyChibi from '../../../assets/pamy-mini.png';
 
 export default function Pamy(){
     return(
 <div className="content">
     <div className='title-sections pessoal'>
-        <p className='brown-text'>Gio</p> 
+        <p className='brown-text'>Pamy</p> 
     </div>
     
     <div className='fine-line'>
@@ -44,12 +44,12 @@ export default function Pamy(){
             </div>
         </div>
         <div className='imagem-1'>
-            <img src={sunnyImg1} alt=""/>
+            <img src={pamyImg1} alt=""/>
         </div>
     </div>
 
     <div className='container2'>
-        <img src={sunnyImg2} alt=""/>
+        <img src={pamyImg2} alt=""/>
         <div className='personal-video'>
 
         </div>

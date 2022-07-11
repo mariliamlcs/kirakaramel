@@ -1,16 +1,15 @@
 import '.././page.css';
 import linhaLaranja from '../../../assets/linhalaranja.png';
-import sunnyImg1 from '../../../assets/sunny-pessoal.png';
-import sunnyImg2 from '../../../assets/sunny-video-icon.png';
+import ynaImg1 from '../../../assets/ynasshi-pessoal.png';
+import ynaImg2 from '../../../assets/ynasshi-video-icon.png';
 import DateSim from '../../../components/DateSim/DateSim';
 import DateNao from '../../../components/DateNao/DateNao';
-import sunnyChibi from '../../../assets/sunny-mini.png';
 
 export default function Ynasshi(){
     return(
 <div className="content">
     <div className='title-sections pessoal'>
-        <p className='brown-text'>Gio</p> 
+        <p className='brown-text'>ynasshi</p> 
     </div>
     
     <div className='fine-line'>
@@ -44,12 +43,12 @@ export default function Ynasshi(){
             </div>
         </div>
         <div className='imagem-1'>
-            <img src={sunnyImg1} alt=""/>
+            <img src={ynaImg1} alt=""/>
         </div>
     </div>
 
     <div className='container2'>
-        <img src={sunnyImg2} alt=""/>
+        <img src={ynaImg2} alt=""/>
         <div className='personal-video'>
 
         </div>

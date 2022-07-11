@@ -1,16 +1,16 @@
 import '.././page.css';
 import linhaLaranja from '../../../assets/linhalaranja.png';
-import sunnyImg1 from '../../../assets/sunny-pessoal.png';
-import sunnyImg2 from '../../../assets/sunny-video-icon.png';
+import hanakoImg1 from '../../../assets/hanako-pessoal.png';
+import hanakoImg2 from '../../../assets/hanako-video-icon.png';
 import DateSim from '../../../components/DateSim/DateSim';
 import DateNao from '../../../components/DateNao/DateNao';
-import sunnyChibi from '../../../assets/sunny-mini.png';
+import hanakoChibi from '../../../assets/hanako-mini.png';
 
 export default function Hanako(){
     return(
 <div className="content">
     <div className='title-sections pessoal'>
-        <p className='brown-text'>Gio</p> 
+        <p className='brown-text'>Hanako</p> 
     </div>
     
     <div className='fine-line'>
@@ -44,12 +44,12 @@ export default function Hanako(){
             </div>
         </div>
         <div className='imagem-1'>
-            <img src={sunnyImg1} alt=""/>
+            <img src={hanakoImg1} alt=""/>
         </div>
     </div>
 
     <div className='container2'>
-        <img src={sunnyImg2} alt=""/>
+        <img src={hanakoImg2} alt=""/>
         <div className='personal-video'>
 
         </div>

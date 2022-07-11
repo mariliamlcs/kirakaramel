@@ -1,10 +1,10 @@
 import '.././page.css';
 import linhaLaranja from '../../../assets/linhalaranja.png';
-import sunnyImg1 from '../../../assets/sunny-pessoal.png';
-import sunnyImg2 from '../../../assets/sunny-video-icon.png';
+import gioImg1 from '../../../assets/gio-pessoal.png';
+import gioImg2 from '../../../assets/gio-video-icon.png';
 import DateSim from '../../../components/DateSim/DateSim';
 import DateNao from '../../../components/DateNao/DateNao';
-import sunnyChibi from '../../../assets/sunny-mini.png';
+import gioChibi from '../../../assets/gio-mini.png';
 
 export default function Gio(){
     return(
@@ -44,12 +44,12 @@ export default function Gio(){
             </div>
         </div>
         <div className='imagem-1'>
-            <img src={sunnyImg1} alt=""/>
+            <img src={gioImg1} alt=""/>
         </div>
     </div>
 
     <div className='container2'>
-        <img src={sunnyImg2} alt=""/>
+        <img src={gioImg2} alt=""/>
         <div className='personal-video'>
 
         </div>

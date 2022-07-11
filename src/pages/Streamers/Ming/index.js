@@ -1,16 +1,16 @@
 import '.././page.css';
 import linhaLaranja from '../../../assets/linhalaranja.png';
-import sunnyImg1 from '../../../assets/sunny-pessoal.png';
-import sunnyImg2 from '../../../assets/sunny-video-icon.png';
+import mingImg1 from '../../../assets/ming-pessoal.png';
+import mingImg2 from '../../../assets/ming-video-icon.png';
 import DateSim from '../../../components/DateSim/DateSim';
 import DateNao from '../../../components/DateNao/DateNao';
-import sunnyChibi from '../../../assets/sunny-mini.png';
+import mingChibi from '../../../assets/ming-mini.png';
 
 export default function Ming(){
     return(
 <div className="content">
     <div className='title-sections pessoal'>
-        <p className='brown-text'>Gio</p> 
+        <p className='brown-text'>Ming</p> 
     </div>
     
     <div className='fine-line'>
@@ -44,12 +44,12 @@ export default function Ming(){
             </div>
         </div>
         <div className='imagem-1'>
-            <img src={sunnyImg1} alt=""/>
+            <img src={mingImg1} alt=""/>
         </div>
     </div>
 
     <div className='container2'>
-        <img src={sunnyImg2} alt=""/>
+        <img src={mingImg2} alt=""/>
         <div className='personal-video'>
 
         </div>
