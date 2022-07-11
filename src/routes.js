@@ -7,6 +7,7 @@ import Faq from "./pages/Faq";
 import Shop from "./pages/Shop";
 import Streamers from "./pages/Streamers";
 import Sunny from "./pages/Streamers/Sunny";
+import Gio from "./pages/Streamers/Gio";
   
 export default function Routes(){
 return(
@@ -16,6 +17,7 @@ return(
   <Route path="/shop" element={<Shop />} />
   <Route path="/streamers" element={<Streamers />} />
   <Route path="/Sunny" element={<Sunny />} />
+  <Route path="/Gio" element={<Gio />} />
 </ReactRoutes>
 )
 }
