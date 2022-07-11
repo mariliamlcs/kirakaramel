@@ -10,7 +10,7 @@ export default function Gio(){
     return(
 <div className="content">
     <div className='title-sections pessoal'>
-        <p className='brown-text'>Sunny</p> 
+        <p className='brown-text'>Gio</p> 
     </div>
     
     <div className='fine-line'>
