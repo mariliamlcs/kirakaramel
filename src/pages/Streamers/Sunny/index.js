@@ -20,7 +20,7 @@ export default function Sunny(){
     <div className='container1'>
         <div className='grid-sobre-mim'>
             <h3>Sobre Mim</h3>
-            <p>Ad commodo deserunt enim cupidatat aliqua. Ea amet nostrud deserunt excepteur enim et exercitation enim minim. Ad laboris magna ut cillum deserunt ea deserunt nostrud et cillum aliqua adipisicing aliquip. Laborum cillum eu anim in deserunt quis officia ea consequat occaecat aliqua. Enim pariatur do occaecat id minim consectetur cillum proident ullamco eiusmod.</p>
+            <p>{i18n.t('messages.aboutSunny')}</p>
             <div className='about-me-list'>
                 <ul>
                     <li><b>Name:</b> nickname</li>
