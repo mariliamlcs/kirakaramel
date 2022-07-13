@@ -5,12 +5,13 @@ import hanakoImg2 from '../../../assets/hanako-video-icon.png';
 import DateSim from '../../../components/DateSim/DateSim';
 import DateNao from '../../../components/DateNao/DateNao';
 import hanakoChibi from '../../../assets/hanako-mini.png';
+import { Link } from 'react-router-dom';
 
 export default function Hanako(){
     return(
 <div className="content">
     <div className='title-sections pessoal'>
-        <p className='brown-text'>Hanako</p> 
+        <p className='brown-text'><Link to="/Gio">Hanako</Link></p> 
     </div>
     
     <div className='fine-line'>

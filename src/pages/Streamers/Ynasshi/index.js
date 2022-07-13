@@ -4,12 +4,13 @@ import ynaImg1 from '../../../assets/ynasshi-pessoal.png';
 import ynaImg2 from '../../../assets/ynasshi-video-icon.png';
 import DateSim from '../../../components/DateSim/DateSim';
 import DateNao from '../../../components/DateNao/DateNao';
+import { Link } from 'react-router-dom';
 
 export default function Ynasshi(){
     return(
 <div className="content">
     <div className='title-sections pessoal'>
-        <p className='brown-text'>ynasshi</p> 
+        <p className='brown-text'><Link to="/Ynasshi">Ynasshi</Link></p> 
     </div>
     
     <div className='fine-line'>

@@ -4,12 +4,13 @@ import sunnyImg1 from '../../../assets/sunny-pessoal.png';
 import sunnyImg2 from '../../../assets/sunny-video-icon.png';
 import DateSim from '../../../components/DateSim/DateSim';
 import DateNao from '../../../components/DateNao/DateNao';
+import { Link } from 'react-router-dom';
 
 export default function Sunny(){
     return(
 <div className="content">
     <div className='title-sections pessoal'>
-        <p className='brown-text'>Sunny</p> 
+        <p className='brown-text'><Link to="/Sunny">Sunny</Link></p> 
     </div>
     
     <div className='fine-line'>

@@ -5,12 +5,13 @@ import gioImg2 from '../../../assets/gio-video-icon.png';
 import DateSim from '../../../components/DateSim/DateSim';
 import DateNao from '../../../components/DateNao/DateNao';
 import gioChibi from '../../../assets/gio-mini.png';
+import { Link } from 'react-router-dom';
 
 export default function Gio(){
     return(
 <div className="content">
     <div className='title-sections pessoal'>
-        <p className='brown-text'>Gio</p> 
+        <p className='brown-text'><Link to="/Gio">Gio</Link></p> 
     </div>
     
     <div className='fine-line'>

@@ -5,12 +5,13 @@ import mingImg2 from '../../../assets/ming-video-icon.png';
 import DateSim from '../../../components/DateSim/DateSim';
 import DateNao from '../../../components/DateNao/DateNao';
 import mingChibi from '../../../assets/ming-mini.png';
+import { Link } from 'react-router-dom';
 
 export default function Ming(){
     return(
 <div className="content">
     <div className='title-sections pessoal'>
-        <p className='brown-text'>Ming</p> 
+        <p className='brown-text'><Link to="/Ming">Ming</Link></p> 
     </div>
     
     <div className='fine-line'>

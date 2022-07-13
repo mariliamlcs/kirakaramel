@@ -5,12 +5,13 @@ import pamyImg2 from '../../../assets/pamy-video-icon.png';
 import DateSim from '../../../components/DateSim/DateSim';
 import DateNao from '../../../components/DateNao/DateNao';
 import pamyChibi from '../../../assets/pamy-mini.png';
+import { Link } from 'react-router-dom';
 
 export default function Pamy(){
     return(
 <div className="content">
     <div className='title-sections pessoal'>
-        <p className='brown-text'>Pamy</p> 
+        <p className='brown-text'><Link to="/Pamy">Pamy</Link></p> 
     </div>
     
     <div className='fine-line'>
