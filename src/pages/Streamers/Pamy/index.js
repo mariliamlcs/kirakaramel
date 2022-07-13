@@ -6,6 +6,7 @@ import DateSim from '../../../components/DateSim/DateSim';
 import DateNao from '../../../components/DateNao/DateNao';
 import pamyChibi from '../../../assets/pamy-mini.png';
 import { Link } from 'react-router-dom';
+import { i18n } from '../../translate/i18n';
 
 export default function Pamy(){
     return(
