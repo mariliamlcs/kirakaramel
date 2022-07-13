@@ -5,7 +5,7 @@ import ynaImg2 from '../../../assets/ynasshi-video-icon.png';
 import DateSim from '../../../components/DateSim/DateSim';
 import DateNao from '../../../components/DateNao/DateNao';
 import { Link } from 'react-router-dom';
-import { i18n } from '../../translate/i18n';
+import { i18n } from '../../../translate/i18n';
 
 export default function Ynasshi(){
     return(
