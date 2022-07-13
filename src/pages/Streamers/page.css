@@ -3,10 +3,12 @@
     font-weight: 600;
 }
 
-h3 {
+h3, h3 a {
     color: #5C282C;
+} 
+h2, h2 a {
+    color: #F4BD5B;
 }
-
 .container1 {
     color: #fff;
     font-size: .8em;

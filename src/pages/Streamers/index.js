@@ -26,7 +26,7 @@ return(
     <div className='streamer-right'>
     <div className='flex'>
     <div>
-        <h2>Pamy</h2>
+        <h2><Link to="/Pamy">Pamy</Link></h2>
         <p>{i18n.t('messages.aboutPamy')}</p>
         <h3>{i18n.t('titles.streamSchedule')}</h3>
         <div className='agenda-streamer'>
@@ -72,7 +72,7 @@ return(
         <img src={fundo2} alt=""/>
     </div>
     <div>
-        <h2>Jesse</h2>
+        <h2><Link to="/Jesse">Jesse</Link></h2>
         <p>{i18n.t('messages.aboutJesse')}</p>
         <h3>{i18n.t('titles.streamSchedule')}</h3>
         <div className='agenda-streamer'>
@@ -113,7 +113,7 @@ return(
     <div className='streamer-right'>
     <div className='flex'>
     <div>
-        <h2>Hanako</h2>
+        <h2><Link to="/">Hanako</Link></h2>
         <p>{i18n.t('messages.aboutHanako')}</p>
         <h3>{i18n.t('titles.streamSchedule')}</h3>
         <div className='agenda-streamer'>
@@ -160,7 +160,7 @@ return(
         <img src={fundo2} alt=""/>
     </div>
     <div>
-        <h2>Gio</h2>
+        <h2><h2><Link to="/Gio">Gio</Link></h2></h2>
         <p>{i18n.t('messages.aboutGio')}</p>
         <h3>{i18n.t('titles.streamSchedule')}</h3>
         <div className='agenda-streamer'>
@@ -200,7 +200,7 @@ return(
 <div className='streamer-right'>
     <div className='flex'>
     <div>
-        <h2>Ming</h2>
+        <h2><h2><Link to="/Ming">Ming</Link></h2></h2>
         <p>{i18n.t('messages.aboutMing')}</p>
         <h3>{i18n.t('titles.streamSchedule')}</h3>
         <div className='agenda-streamer'>
@@ -250,7 +250,7 @@ return(
         <img src={fundo2} alt=""/>
     </div>
     <div>
-        <h2>Sunny</h2>
+    <h2><Link to="/Sunny">Suny</Link></h2>
         <p>{i18n.t('messages.aboutSunny')}</p>
         <h3>{i18n.t('titles.streamSchedule')}</h3>
         <div className='agenda-streamer'>
@@ -293,7 +293,7 @@ return(
 <div className='streamer-right'>
     <div className='flex'>
     <div>
-        <h2>Ynasshi</h2>
+    <h2><Link to="/Ynasshi">Ynasshi</Link></h2>
         <p>{i18n.t('messages.aboutYnasshi')}</p>
         <h3>{i18n.t('titles.streamSchedule')}</h3>
         <div className='agenda-streamer'>
