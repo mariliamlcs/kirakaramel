@@ -57,7 +57,7 @@ return(
             hour="20:00 PM"
         />
         </div>
-        <p className='read-more'><Link to="/Pamy">{i18n.t('messages.readMore')}></Link> <img src={readMore} alt=""></img></p>
+        <p className='read-more'><Link to="/Pamy">{i18n.t('messages.readMore')}</Link> <img src={readMore} alt=""></img></p>
     </div>
     <div>
         <img src={fundo} alt=""/>
