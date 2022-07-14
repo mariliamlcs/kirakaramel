@@ -19,7 +19,7 @@
 .flex h2, .flex h3 {
     color: #EEA43D;
 }
-.read-more {
+.read-more, .read-more a {
     float: right;
     color: #B0B0B0;
     text-transform: uppercase;

@@ -57,7 +57,7 @@ return(
             hour="20:00 PM"
         />
         </div>
-        <p className='read-more'>{i18n.t('messages.readMore')} <img src={readMore} alt=""></img></p>
+        <p className='read-more'><Link to="/Pamy">{i18n.t('messages.readMore')}></Link> <img src={readMore} alt=""></img></p>
     </div>
     <div>
         <img src={fundo} alt=""/>
@@ -104,7 +104,7 @@ return(
             hour="03:00 PM"
         />
         </div>
-    <p className='read-more'>{i18n.t('messages.readMore')} <img src={readMore} alt=""></img></p>
+    <p className='read-more'><Link to="/Jesse">{i18n.t('messages.readMore')}</Link> <img src={readMore} alt=""></img></p>
     </div>
     </div>
     </div>
@@ -145,7 +145,7 @@ return(
             day={i18n.t('titles.sunday')}
         />
         </div>
-    <p className='read-more'>{i18n.t('messages.readMore')} <img src={readMore} alt=""></img></p>
+    <p className='read-more'><Link to="/Hanako">{i18n.t('messages.readMore')}</Link> <img src={readMore} alt=""></img></p>
     </div>
     <div>
         <img src={fundo} alt=""/>
@@ -191,7 +191,7 @@ return(
             hour="05:00 PM"
         />
         </div>
-    <p className='read-more'>{i18n.t('messages.readMore')} <img src={readMore} alt=""></img></p>
+    <p className='read-more'><Link to="/Gio">{i18n.t('messages.readMore')}</Link> <img src={readMore} alt=""></img></p>
     </div>
     </div>
     </div>
@@ -234,7 +234,7 @@ return(
             hour="04:00 PM"
         />
         </div>
-    <p className='read-more'>{i18n.t('messages.readMore')} <img src={readMore} alt=""></img></p>
+    <p className='read-more'><Link to="/Ming">{i18n.t('messages.readMore')}</Link> <img src={readMore} alt=""></img></p>
     </div>
     <div>
         <img src={fundo} alt=""/>
@@ -250,7 +250,7 @@ return(
         <img src={fundo2} alt=""/>
     </div>
     <div>
-    <h2><Link to="/Sunny">Suny</Link></h2>
+    <h2><Link to="/Sunny">Sunny</Link></h2>
         <p>{i18n.t('messages.aboutSunny')}</p>
         <h3>{i18n.t('titles.streamSchedule')}</h3>
         <div className='agenda-streamer'>
@@ -283,7 +283,7 @@ return(
             hour="04:00 PM"
         />
         </div>
-    <p className='read-more'>{i18n.t('messages.readMore')} <img src={readMore} alt=""></img></p>
+    <p className='read-more'><Link to="/Sunny">{i18n.t('messages.readMore')}</Link> <img src={readMore} alt=""></img></p>
     </div>
     </div>
     </div>
@@ -327,7 +327,7 @@ return(
             hour="07:00 PM"
         />        
         </div>
-    <p className='read-more'>{i18n.t('messages.readMore')} <img src={readMore} alt=""></img></p>
+    <p className='read-more'><Link to="/Ynasshi">{i18n.t('messages.readMore')}</Link> <img src={readMore} alt=""></img></p>
     </div>
     <div>
         <img src={fundo} alt=""/>
