@@ -20,10 +20,10 @@ const messages = {
                 streamerDebutDate: "Debut Date:",
                 streamerGender: "Gender:",
                 streamerAge: "Age",
-                streamerBirthday: "Birthday",
-                streamerHeight: "Height",
-                streamerFanbase: "Fanbase",
-                streamerIllustrator: "Illustrator",
+                streamerBirthday: "Birthday:",
+                streamerHeight: "Height:",
+                streamerFanbase: "Fanbase:",
+                streamerIllustrator: "Illustrator:",
                 streamerLive2D: "Live 2D:",
                 
             },
@@ -41,6 +41,8 @@ const messages = {
                 faq3a:"In addition to help supporting our girls individually, and as a group, in their streams, KiraKara has an “apoiase”, where, for a small monthly amount, you will receive wallpapers, model spoilers, exclusive arts and more! All the amount raised will go to our fund, where we will be able to promote more group events.",
                 faq4a:"We are active on every social media like Youtube, Tiktok, Twitter and Instagram but our streams are mostly made on Twitch. For more info, access:",
                 faq5a:"Sure! And with your permission, we can post it on our social media, and give you the credits",
+                streamerLanguage: "English and Portuguese",
+                streamerGender: "Female",
             }
         }
     }

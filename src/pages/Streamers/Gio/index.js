@@ -25,18 +25,18 @@ export default function Gio(){
             <p>{i18n.t('messages.aboutGio')}</p>
             <div className='about-me-list'>
                 <ul>
-                    <li><b>{i18n.t('titles.streamerName')}</b> nickname</li>
+                    <li><b>{i18n.t('titles.streamerName')}</b> Suzume Gio</li>
                     <li><b>{i18n.t('titles.streamerLanguage')}</b></li>
                     <li><b>{i18n.t('titles.streamerDebutDate')}</b></li>
                     <li><b>{i18n.t('titles.streamerGender')}</b></li>
-                    <li><b>{i18n.t('titles.streamerAge')}</b></li>
+                    <li><b>{i18n.t('titles.streamerAge')}</b> 69</li>
                 </ul>
                 <ul>
                     <li><b>{i18n.t('titles.streamerBirthday')}</b></li>
-                    <li><b>{i18n.t('titles.streamerHeight')}</b></li>
+                    <li><b>{i18n.t('titles.streamerHeight')}</b> 1,52m</li>
                     <li><b>{i18n.t('titles.streamerFanbase')}</b></li>
-                    <li><b>{i18n.t('titles.streamerIllustrator')}</b></li>
-                    <li><b>{i18n.t('titles.streamerLive2D')}</b></li>
+                    <li><b>{i18n.t('titles.streamerIllustrator')}</b>@SuzumeGio</li>
+                    <li><b>{i18n.t('titles.streamerLive2D')}</b>@SuzumeGio</li>
                 </ul>
             </div>
             <h3 className='sm-title'>Redes Sociais</h3>

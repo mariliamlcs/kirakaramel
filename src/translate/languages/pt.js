@@ -40,6 +40,8 @@ const messages = {
                 faq3a:"Além de ajudar apoiando nossas meninas individualmente, e em grupo, em suas streams, a KiraKara possui um apoia.se, onde por um pequeno valor mensal, você irá receber wallpapers, spoilers de modelos, artes exclusivas e muito mais! Todo o valor arrecadado irá para nosso fundo, onde conseguiremos promover mais eventos do grupo.",
                 faq4a:"Estamos ativas na maioria das redes sociais como Youtube, Tiktok, Twitter e Instagram, mas nossas streams são feitas pela Twitch. Mais informações em:",
                 faq5a:"Sim! E com sua permissão, postaremos sua arte em nossas redes, dando-lhe os devidos créditos.",
+                streamerLanguage: "Inglês e Português",
+                streamerGender: "Feminino",
             }
         }
     }
