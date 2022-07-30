@@ -1,4 +1,5 @@
 import '.././page.css';
+import './index.css';
 import linhaLaranja from '../../../assets/linhalaranja.png';
 import pamyImg1 from '../../../assets/pamy-pessoal.png';
 import pamyImg2 from '../../../assets/pamy-video-icon.png';
