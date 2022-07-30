@@ -10,6 +10,11 @@ const messages = {
                 friday: "Sexta",
                 saturday: "Sábado",
                 sunday: "Domingo",
+                faq1q: "O que é Vtuber?",
+                faq2q: "Estão procurando novos membros?",
+                faq3q: "Como posso ajudar no projeto?",
+                faq4q: "Onde posso encontrar vocês?",
+                faq5q: "Posso fazer artes de vocês e marcar nas redes sociais?",
             },
             messages: {
                 readMore: 'Saiba mais',
@@ -20,6 +25,11 @@ const messages = {
                 aboutMing:"Ming é uma Humana Artificial criada com o objetivo de se tornar cada vez mais parecida com os humanos, aprendendo suas emoções e descobrindo sua própria personalidade, apesar de apresentar algumas falhas um tanto quanto perigosas. Ela possui habilidades de tecnomagia e está sempre acompanhada de seus dois drones e mascotes, Molly a Coelhinha e Remy o Polvo Dumbo, juntos eles conquistam os humanos com melodias apaixonantes, doces e até mesmo dançantes, criando festas aonde quer que estejam.",
                 aboutSunny:"Sunny é uma mercenária, geralmente muito fácil de irritar, agressiva e competitiva. Trabalha nas sombras como 'Killer Bear' e geralmente utiliza uma sniper para fazer o serviço, porém também consegue fazer combate corpo-a-corpo. O universo em que vive, é uma terra em uma diferente realidade, nela habita humanos e demi-humanos, assim como andróides e pessoas com diferentes tipos de habilidade, passou por diversos danos devido a guerras armadas e nucleares. Sunny também tem um familiar transmorfo (que consegue trocar de forma) chamado 'Mari' que a acompanha em todos os momentos, geralmente em forma de gato.",
                 aboutYnasshi:"Yna, é uma descendente de sereia mais conhecida como “peixe sem cauda”, porque não herdou as caudas. Ela tem uma energia divertida e caótica, nunca pergunte sobre pinguins a ela, tem uma estranha obsessão com pessoas sem cabelos e diz a lenda que ela usa uma peruca, mas nada confirmado.",
+                faq1a:"Vtuber vem de “Youtuber Virtual”, que consiste em criadores de conteúdo que se utilizam de um avatar para vídeos e Streams; A comunidade Vtuber anda se mostrando muito presente em plataformas como Youtube, Twitch e Tiktok!",
+                faq2a:"Não! As vagas estão fechadas no momento.",
+                faq3a:"Além de ajudar apoiando nossas meninas individualmente, e em grupo, em suas streams, a KiraKara possui um apoia.se, onde por um pequeno valor mensal, você irá receber wallpapers, spoilers de modelos, artes exclusivas e muito mais! Todo o valor arrecadado irá para nosso fundo, onde conseguiremos promover mais eventos do grupo.",
+                faq4a:"Estamos ativas na maioria das redes sociais como Youtube, Tiktok, Twitter e Instagram, mas nossas streams são feitas pela Twitch. Mais informações em:",
+                faq5a:"Sim! E com sua permissão, postaremos sua arte em nossas redes, dando-lhe os devidos créditos.",
             }
         }
     }

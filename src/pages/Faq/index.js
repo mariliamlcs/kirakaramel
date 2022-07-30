@@ -2,6 +2,7 @@ import './index.css';
 import estrelinha from '../../assets/estrelinha.png';
 import Item from './Item';
 import bannerFAQ from '../../assets/bannerFAQ.png';
+import { i18n } from '../../translate/i18n';
 
 export default function Faq(){
     return(
@@ -18,36 +19,24 @@ export default function Faq(){
         <hr className='linha-rose'/>
         <div className='faq-container'>
         <Item 
-            question="How much does Kira control its creators and their content?"
-            answer="Officia voluptate irure exercitation ad exercitation duis dolore reprehenderit do tempor nulla. Ea et esse cillum non deserunt dolore duis aliquip consequat non."
+            question={i18n.t('titles.faq1q')}
+            answer={i18n.t('messages.faq1a')}
         />
         <Item 
-            question="Do you set their schedules?"
-            answer="Eiusmod dolor laborum et officia dolor aliqua elit officia cupidatat incididunt exercitation commodo sint."
+            question={i18n.t('titles.faq2q')}
+            answer={i18n.t('messages.faq2a')}
         />
         <Item 
-            question="Did you poach or buy your creators?"
-            answer="Pariatur magna nisi dolor exercitation duis aliquip."
+            question={i18n.t('titles.faq3q')}
+            answer={i18n.t('messages.faq3a')}
         />
         <Item 
-            question="Are you planning Generations?"
-            answer="Deserunt excepteur nulla est laboris sunt nostrud commodo irure elit minim sunt aliqua id."
+            question={i18n.t('titles.faq4q')}
+            answer={i18n.t('messages.faq4a')}
         />
         <Item 
-            question="When did kira kara start?"
-            answer="Commodo eiusmod duis adipisicing eu laboris ea tempor."
-        />
-        <Item 
-            question="What am I allowed to upload?"
-            answer="Aute adipisicing aliqua occaecat deserunt mollit."
-        />
-        <Item 
-            question="Do we control our creators's social media?"
-            answer="Aliquip voluptate minim anim elit cupidatat aute laborum sint pariatur enim."
-        />
-        <Item 
-            question="What does kira kara provide their creators?"
-            answer="Voluptate do consequat velit eu eu commodo nostrud."
+            question={i18n.t('titles.faq5q')}
+            answer={i18n.t('messages.faq5a')}
         />
         </div>
 
