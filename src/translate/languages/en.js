@@ -15,6 +15,17 @@ const messages = {
                 faq3q: "How can I help the project?",
                 faq4q: "Where can I find you?",
                 faq5q: "Can I make fanarts and tag you on social media?",
+                streamerName: "Name:",
+                streamerLanguage: "Language:",
+                streamerDebutDate: "Debut Date:",
+                streamerGender: "Gender:",
+                streamerAge: "Age",
+                streamerBirthday: "Birthday",
+                streamerHeight: "Height",
+                streamerFanbase: "Fanbase",
+                streamerIllustrator: "Illustrator",
+                streamerLive2D: "Live 2D:",
+                
             },
             messages: {
                 readMore: "Read more",
