@@ -25,18 +25,18 @@ export default function Ming(){
             <p>{i18n.t('messages.aboutMing')}</p>
             <div className='about-me-list'>
                 <ul>
-                    <li><b>Name:</b> nickname</li>
-                    <li>Language:</li>
-                    <li>Debut Date:</li>
-                    <li>Gender:</li>
-                    <li>Age:</li>
+                    <li><b>{i18n.t('titles.streamerName')}</b> nickname</li>
+                    <li><b>{i18n.t('titles.streamerLanguage')}</b></li>
+                    <li><b>{i18n.t('titles.streamerDebutDate')}</b></li>
+                    <li><b>{i18n.t('titles.streamerGender')}</b></li>
+                    <li><b>{i18n.t('titles.streamerAge')}</b></li>
                 </ul>
                 <ul>
-                    <li>Birthday:</li>
-                    <li>Height:</li>
-                    <li>Fanbase:</li>
-                    <li>Illustrator:</li>
-                    <li>Live2D:</li>
+                    <li><b>{i18n.t('titles.streamerBirthday')}</b></li>
+                    <li><b>{i18n.t('titles.streamerHeight')}</b></li>
+                    <li><b>{i18n.t('titles.streamerFanbase')}</b></li>
+                    <li><b>{i18n.t('titles.streamerIllustrator')}</b></li>
+                    <li><b>{i18n.t('titles.streamerLive2D')}</b></li>
                 </ul>
             </div>
             <h3 className='sm-title'>Redes Sociais</h3>
