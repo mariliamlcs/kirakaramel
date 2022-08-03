@@ -5,8 +5,9 @@
     margin-top: 2vw;
 }
 
-p {
+.flex p {
     font-size: 0.8em;
+    font-weight: 400;
 }
 
 .flex {
@@ -25,6 +26,7 @@ p {
 }
 .read-more, .read-more a {
     float: right;
+    font-weight: 600;
     color: #B0B0B0;
     text-transform: uppercase;
     display: flex;
