@@ -4,12 +4,12 @@
     background-color: #EEA43D;
     color: #fff;
     font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    font-size: 1.6vw;
+    font-weight: 400;
+    font-size: 1.2vw;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     text-transform: uppercase;
 }
 
@@ -22,5 +22,5 @@
     padding: 1vw;
 }
 .logo-navbar img {
-    width: 10vw;
+    width: 12vw;
 }
