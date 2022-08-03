@@ -8,15 +8,9 @@ const Footer=() =>{
     <footer>
     <div className="footer">
     <ul>
-        <li>cookie policy</li>
-        <li>privacy policy</li>
-        <li>gift guideliness</li>
-        <li>contact</li>
-    </ul>
-    <ul>
-        <li><img src={iconTwitterf} alt='Twitter'/></li>
-        <li><img src={iconYTf} alt='YouTube'/></li>
-        <li><img src={icon3f}/></li>
+        <li><a href='https://twitter.com/KiraKaramel'><img src={iconTwitterf} alt='Twitter'/></a></li>
+        <li><a href=''><img src={iconYTf} alt='YouTube'/></a></li>
+        <li><a href='https://apoia.se/kirakaramel'><img src={icon3f} alt='apoia-se'/></a></li>
     </ul>
     </div>
     </footer>

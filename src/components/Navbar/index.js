@@ -19,9 +19,9 @@ return (
     <li><Link to="/streamers">Streamers</Link></li>
 </ul>
 <ul>
-    <li><img src={iconTwitter} className="icon"/></li>
+    <li><a href='https://twitter.com/KiraKaramel'><img src={iconTwitter} className="icon"/></a></li>
     <li><img src={iconYT} className="icon"/></li>
-    <li><img src={icon3} className="icon"/></li>
+    <li><a href='https://apoia.se/kirakaramel'><img src={icon3} className="icon"/></a></li>
 </ul>
 </div>
 );
