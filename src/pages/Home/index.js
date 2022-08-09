@@ -6,6 +6,7 @@ import iconPamy from '../../assets/pamy.png';
 import iconSunny from '../../assets/sunny.png';
 import newsletterBear from '../../assets/newsletterBear.png';
 import { Link } from 'react-router-dom';
+import { i18n } from '../../translate/i18n';
 
 export default function Home(){
   return(
