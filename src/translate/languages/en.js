@@ -44,6 +44,8 @@ const messages = {
                 faq5a:"Sure! And with your permission, we can post it on our social media, and give you the credits",
                 streamerLanguage: "English and Portuguese",
                 streamerGender: "Female",
+                newsletter1: "subscribe to our newsletter and",
+                newsletter2: "don't miss anything!",
             }
         }
     }

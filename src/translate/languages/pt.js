@@ -26,8 +26,6 @@ const messages = {
                 streamerIllustrator: "Ilustrador(a):",
                 streamerLive2D: "Live 2D:",
                 confirm: "assinar",
-                newsletter1: "subscribe to our newsletter and",
-                newsletter2: "don't miss anything!",
             },
             messages: {
                 readMore: 'Saiba mais',
