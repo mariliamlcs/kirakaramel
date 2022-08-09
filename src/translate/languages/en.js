@@ -46,6 +46,8 @@ const messages = {
                 streamerGender: "Female",
                 newsletter1: "subscribe to our newsletter and",
                 newsletter2: "don't miss anything!",
+                textW1: "We are an independent Vtuber group looking forward to grow up together",
+                textW2: "Stay tuned for more information on our site and twitter!",
             }
         }
     }
