@@ -33,9 +33,9 @@ export default function Home(){
     </div>
 
     <div className='text-welcome'>
-      <p>Elit eu ullamco nulla consequat reprehenderit ullamco et eu duis adipisicing cupidatat laborum nostrud commodo. Cillum fugiat fugiat cupidatat enim. Laboris ad id excepteur elit et pariatur irure consequat id nisi incididunt. Consectetur cillum aliquip eu quis deserunt occaecat magna aute voluptate qui irure dolor. Reprehenderit dolor cupidatat irure quis.</p>
+      <p>{i18n.t('messages.textW1')}</p>
 
-      <p>Tempor occaecat incididunt sint incididunt qui officia velit pariatur occaecat duis sunt.</p>
+      <p>{i18n.t('messages.textW2')}</p>
       <br/>
       <Link to="/streamers" className='button-marrom'>conheça as vtubers</Link>
     </div>
@@ -43,9 +43,9 @@ export default function Home(){
 
   <div className='section-newsletter'>
     <div>
-    <h1 className='title-newsletter'>assine a newsletter <br/>e não perca <b>nada!</b></h1>
+    <h1 className='title-newsletter'>{i18n.t('messages.newsletter1')} <br/><b>{i18n.t('messages.newsletter2')}</b></h1>
     <input className='input-newsletter' placeholder='e-mail'/><br/>
-    <a href='/' className='send-button'>enviar mensagem</a>
+    <a href='/' className='send-button'>{i18n.t('titles.confirm')}</a>
     </div>
     <div>
     <img src={newsletterBear} alt='' className='bear'/>

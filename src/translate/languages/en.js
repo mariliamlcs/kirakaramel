@@ -25,6 +25,7 @@ const messages = {
                 streamerFanbase: "Fanbase:",
                 streamerIllustrator: "Illustrator:",
                 streamerLive2D: "Live 2D:",
+                confirm: "subscribe",
                 
             },
             messages: {

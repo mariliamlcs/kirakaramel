@@ -25,6 +25,9 @@ const messages = {
                 streamerFanbase: "Fã base:",
                 streamerIllustrator: "Ilustrador(a):",
                 streamerLive2D: "Live 2D:",
+                confirm: "assinar",
+                newsletter1: "subscribe to our newsletter and",
+                newsletter2: "don't miss anything!",
             },
             messages: {
                 readMore: 'Saiba mais',
@@ -42,6 +45,8 @@ const messages = {
                 faq5a:"Sim! E com sua permissão, postaremos sua arte em nossas redes, dando-lhe os devidos créditos.",
                 streamerLanguage: "Inglês e Português",
                 streamerGender: "Feminino",
+                newsletter1: "assine a newsletter e não perca",
+                newsletter2: "nada!",
             }
         }
     }
