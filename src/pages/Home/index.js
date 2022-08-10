@@ -38,7 +38,7 @@ export default function Home(){
 
       <p>{i18n.t('messages.textW2')}</p>
       <br/>
-      <Link to="/streamers" className='button-marrom'>conheça as vtubers</Link>
+      <Link to="/streamers" className='button-marrom'>{i18n.t('titles.knowUs')}</Link>
     </div>
   </div>
 
