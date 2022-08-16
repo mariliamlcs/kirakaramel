@@ -1,13 +1,17 @@
 import { Link } from 'react-router-dom';
 import './index.css';
 import fineLine from '../../assets/fineLine.png';
-import fundo from "../../assets/fundo.png";
-import fundo2 from "../../assets/fundo2.png";
 import readMore from "../../assets/rmore.png";
 import DateGrey from '../../components/DateGrey//DateGrey'; 
 import DateOrange from '../../components/DateOrange/DateOrange';
 import { i18n } from '../../translate/i18n';
 import sunny from '../../assets/sunny.png';
+import gio from '../../assets/gio.png';
+import pamy from '../../assets/pamy.png';
+import ming from '../../assets/ming.png';
+import jesse from '../../assets/jesse.png';
+import hanako from '../../assets/hana.png';
+import ynasshi from '../../assets/ynasshi.png';
 
 export default function Streamers(){
 return(
@@ -24,11 +28,8 @@ return(
 
 <div className="streamers">
 {/*SUNNY*/}
-<div className='streamer-left'>
+<div className='streamer-right'>
     <div className='flex'>
-    <div>
-        <img src={sunny} alt=""/>
-    </div>
     <div>
     <h2><Link to="/Sunny">Sunny</Link></h2>
         <p>{i18n.t('messages.aboutSunny')}</p>
@@ -65,12 +66,18 @@ return(
         </div>
     <p className='read-more'><Link to="/Sunny">{i18n.t('messages.readMore')}</Link> <img src={readMore} alt=""></img></p>
     </div>
+    <div>
+        <img src={sunny} alt=""/>
+    </div>
     </div>
     </div>
 
 {/*Gio*/}    
-    <div className='streamer-right'>
+    <div className='streamer-left'>
     <div className='flex'>
+    <div>
+        <img src={gio} alt=""/>
+    </div>
     <div>
         <h2><Link to="/Gio">Gio</Link></h2>
         <p>{i18n.t('messages.aboutGio')}</p>
@@ -105,18 +112,12 @@ return(
         </div>
         <p className='read-more'><Link to="/Gio">{i18n.t('messages.readMore')}</Link> <img src={readMore} alt=""></img></p>
     </div>
-    <div>
-        <img src={fundo} alt=""/>
-    </div>
     </div>
     </div>
 
 {/*Pamy*/}
-    <div className='streamer-left'>
+    <div className='streamer-right'>
     <div className='flex'>
-    <div>
-        <img src={fundo2} alt=""/>
-    </div>
     <div>
         <h2><Link to="/Pamy">Pamy</Link></h2>
         <p>{i18n.t('messages.aboutPamy')}</p>
@@ -151,12 +152,18 @@ return(
         </div>
     <p className='read-more'><Link to="/Pamy">{i18n.t('messages.readMore')}</Link> <img src={readMore} alt=""></img></p>
     </div>
+    <div>
+        <img src={pamy} alt=""/>
+    </div>
     </div>
     </div>
 
 {/*Ming*/}
-    <div className='streamer-right'>
+    <div className='streamer-left'>
     <div className='flex'>
+    <div>
+        <img src={ming} alt=""/>
+    </div>
     <div>
         <h2><Link to="/Ming">Ming</Link></h2>
         <p>{i18n.t('messages.aboutMing')}</p>
@@ -194,18 +201,12 @@ return(
         </div>
     <p className='read-more'><Link to="/Ming">{i18n.t('messages.readMore')}</Link> <img src={readMore} alt=""></img></p>
     </div>
-    <div>
-        <img src={fundo} alt=""/>
-    </div>
     </div>
     </div>
 
 {/*Jesse*/}
-<div className='streamer-left'>
+<div className='streamer-right'>
     <div className='flex'>
-    <div>
-        <img src={fundo2} alt=""/>
-    </div>
     <div>
         <h2><Link to="/Jesse">Jesse</Link></h2>
         <p>{i18n.t('messages.aboutJesse')}</p>
@@ -241,12 +242,18 @@ return(
         </div>
     <p className='read-more'><Link to="/Jesse">{i18n.t('messages.readMore')}</Link> <img src={readMore} alt=""></img></p>
     </div>
+    <div>
+        <img src={jesse} alt=""/>
+    </div>
     </div>
     </div>
 
 {/*Ynasshi*/}
-<div className='streamer-right'>
+<div className='streamer-left'>
     <div className='flex'>
+    <div>
+        <img src={ynasshi} alt=""/>
+    </div>
     <div>
         <h2><Link to="/Ynasshi">Ynasshi</Link></h2>
         <p>{i18n.t('messages.aboutYnasshi')}</p>
@@ -284,19 +291,13 @@ return(
         </div>
     <p className='read-more'><Link to="/Ynasshi">{i18n.t('messages.readMore')}</Link> <img src={readMore} alt=""></img></p>
     </div>
-    <div>
-        <img src={fundo} alt=""/>
-    </div>
     </div>
     </div>
 
 
 {/*Hanako*/}
-<div className='streamer-left'>
+<div className='streamer-right'>
     <div className='flex'>
-    <div>
-        <img src={fundo2} alt=""/>
-    </div>
     <div>
         <h2><Link to="/Hanako">Hanako</Link></h2>
         <p>{i18n.t('messages.aboutHanako')}</p>
@@ -331,6 +332,9 @@ return(
         />
         </div>
     <p className='read-more'><Link to="/Hanako">{i18n.t('messages.readMore')}</Link> <img src={readMore} alt=""></img></p>
+    </div>
+    <div>
+        <img src={hanako} alt=""/>
     </div>
     </div>
     </div>
