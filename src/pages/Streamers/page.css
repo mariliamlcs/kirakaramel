@@ -124,3 +124,8 @@ h2, h2 a {
 p {
     font-size: 1em;
 }
+.img-sobre-gio {
+    margin-top: -5em;
+    z-index: 0;
+    
+}

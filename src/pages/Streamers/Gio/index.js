@@ -50,7 +50,7 @@ export default function Gio(){
     </div>
 
     <div className='container2'>
-        <img src={gioImg2} alt=""/>
+        <img src={gioImg2} alt='' class='img-sobre-gio'/>
         <div className='personal-video'>
 
         </div>
