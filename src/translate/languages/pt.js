@@ -63,6 +63,7 @@ const messages = {
                 birthdayJesse: "04/11",
                 birthdayHanako: "25/01",
                 birthdayYnasshi: "22/12",
+                gender: "Feminino",
             }
         }
     }
