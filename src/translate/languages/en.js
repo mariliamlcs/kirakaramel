@@ -49,6 +49,21 @@ const messages = {
                 newsletter2: "don't miss anything!",
                 textW1: "We are an independent Vtuber group looking forward to grow up together",
                 textW2: "Stay tuned for more information on our site and twitter!",
+                portuguese: "Portuguese",
+                dateSunny: "01/18/2021",
+                dateGio: "07/25/2021",
+                datePamy: "01/05/2021",
+                dateMing: "04/11/2021",
+                dateJesse: "04/24/2022",
+                dateHanako: "06/26/2022",
+                dateYnasshi: "01/11/2022",
+                birthdaySunny: "01/18",
+                birthdayGio: "02/23",
+                birthdayPamy: "11/29",
+                birthdayMing: "01/15",
+                birthdayJesse: "11/04",
+                birthdayHanako: "01/25",
+                birthdayYnasshi: "12/22",
             }
         }
     }

@@ -25,7 +25,7 @@ export default function Sunny(){
             <div className='about-me-list'>
                 <ul>
                     <li><b>{i18n.t('titles.streamerName')}</b> Sunny Seiki</li>
-                    <li><b>{i18n.t('titles.streamerLanguage')}</b></li>
+                    <li><b>{i18n.t('titles.streamerLanguage')}</b> {i18n.t('messages.portuguese')}</li>
                     <li><b>{i18n.t('titles.streamerDebutDate')}</b></li>
                     <li><b>{i18n.t('titles.streamerGender')}</b></li>
                     <li><b>{i18n.t('titles.streamerAge')}</b> 21</li>
