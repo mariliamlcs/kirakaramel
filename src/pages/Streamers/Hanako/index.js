@@ -1,10 +1,9 @@
 import '.././page.css';
 import linhaLaranja from '../../../assets/linhalaranja.png';
-import hanakoImg1 from '../../../assets/hanako-pessoal.png';
-import hanakoImg2 from '../../../assets/hanako-video-icon.png';
+import hanakoImg1 from '../../../assets/hana-sobre.png';
+import hanakoImg2 from '../../../assets/hana-video.png';
 import DateSim from '../../../components/DateSim/DateSim';
 import DateNao from '../../../components/DateNao/DateNao';
-import hanakoChibi from '../../../assets/hanako-mini.png';
 import { Link } from 'react-router-dom';
 import { i18n } from '../../../translate/i18n';
 

@@ -1,7 +1,7 @@
 import '.././page.css';
 import linhaLaranja from '../../../assets/linhalaranja.png';
-import ynaImg1 from '../../../assets/ynasshi-pessoal.png';
-import ynaImg2 from '../../../assets/ynasshi-video-icon.png';
+import ynaImg1 from '../../../assets/ynasshi-sobre.png';
+import ynaImg2 from '../../../assets/ynasshi-video.png';
 import DateSim from '../../../components/DateSim/DateSim';
 import DateNao from '../../../components/DateNao/DateNao';
 import { Link } from 'react-router-dom';

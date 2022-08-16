@@ -7,6 +7,7 @@ import readMore from "../../assets/rmore.png";
 import DateGrey from '../../components/DateGrey//DateGrey'; 
 import DateOrange from '../../components/DateOrange/DateOrange';
 import { i18n } from '../../translate/i18n';
+import sunny from '../../assets/sunny.png';
 
 export default function Streamers(){
 return(
@@ -26,7 +27,7 @@ return(
 <div className='streamer-left'>
     <div className='flex'>
     <div>
-        <img src={fundo2} alt=""/>
+        <img src={sunny} alt=""/>
     </div>
     <div>
     <h2><Link to="/Sunny">Sunny</Link></h2>

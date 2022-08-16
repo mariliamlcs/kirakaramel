@@ -1,7 +1,7 @@
 import './index.css';
 import estrelinha from '../../assets/estrelinha.png';
 import Item from './Item';
-import bannerFAQ from '../../assets/bannerFAQ.png';
+import bannerFAQ from '../../assets/todas-mini.png';
 import { i18n } from '../../translate/i18n';
 
 export default function Faq(){
@@ -9,10 +9,10 @@ export default function Faq(){
     <> 
     <div className="content">
         <div className='title-sections'>
-        <div className='estrelinha'><img src={estrelinha}/></div>
+        <div className='estrelinha'><img src={estrelinha} alt='estrelinha'/></div>
         <h1 className='faq-title title-sections orange-text'>
         F.A.Q&nbsp;<b>Kira Kara</b></h1>
-        <div className='estrelinha'><img src={estrelinha}/></div>
+        <div className='estrelinha'><img src={estrelinha} alt='estrelinha'/></div>
         </div>
         <br/>
         <hr className='linha-marrom'/>

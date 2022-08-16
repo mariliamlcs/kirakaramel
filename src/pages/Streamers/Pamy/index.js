@@ -1,11 +1,10 @@
 import '.././page.css';
 import './pamyPage.css';
 import linhaLaranja from '../../../assets/linhalaranja.png';
-import pamyImg1 from '../../../assets/pamy-pessoal.png';
-import pamyImg2 from '../../../assets/pamy-video-icon.png';
+import pamyImg1 from '../../../assets/pamy-sobre.png';
+import pamyImg2 from '../../../assets/pamy-sobre.png';
 import DateSim from '../../../components/DateSim/DateSim';
 import DateNao from '../../../components/DateNao/DateNao';
-import pamyChibi from '../../../assets/pamy-mini.png';
 import { Link } from 'react-router-dom';
 import { i18n } from '../../../translate/i18n';
 

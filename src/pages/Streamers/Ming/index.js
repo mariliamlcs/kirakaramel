@@ -1,10 +1,9 @@
 import '.././page.css';
 import linhaLaranja from '../../../assets/linhalaranja.png';
-import mingImg1 from '../../../assets/ming-pessoal.png';
-import mingImg2 from '../../../assets/ming-video-icon.png';
+import mingImg1 from '../../../assets/ming-sobre.png';
+import mingImg2 from '../../../assets/ming-video.png';
 import DateSim from '../../../components/DateSim/DateSim';
 import DateNao from '../../../components/DateNao/DateNao';
-import mingChibi from '../../../assets/ming-mini.png';
 import { Link } from 'react-router-dom';
 import { i18n } from '../../../translate/i18n';
 
