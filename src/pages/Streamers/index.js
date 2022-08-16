@@ -74,7 +74,7 @@ return(
 
 {/*Gio*/}    
     <div className='streamer-left'>
-    <div className='flex'>
+    <div className='flex left'>
     <div>
         <img src={gio} alt=""/>
     </div>
@@ -160,7 +160,7 @@ return(
 
 {/*Ming*/}
     <div className='streamer-left'>
-    <div className='flex'>
+    <div className='flex left'>
     <div>
         <img src={ming} alt=""/>
     </div>
@@ -250,7 +250,7 @@ return(
 
 {/*Ynasshi*/}
 <div className='streamer-left'>
-    <div className='flex'>
+    <div className='flex left'>
     <div>
         <img src={ynasshi} alt=""/>
     </div>
