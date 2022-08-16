@@ -21,7 +21,7 @@ h2, h2 a {
     min-height: max-content;
 }
 .grid-sobre-mim {
-    margin: 3vw 5vw 1vw;
+    margin: 3vw 5vw ;
     width: 100%;
 }
 .about-me-list {
@@ -41,13 +41,10 @@ h2, h2 a {
     display: flex;
     width: 100%;
     height: auto;
-    flex-direction: column;
-    align-items: flex-end;
-    margin-top: -1.4vw;
 }
+
 .imagem-1 img {
     width: 100%;
-    max-width: 500px;
     height: auto;
 }
 
@@ -64,13 +61,12 @@ h2, h2 a {
 
 .container2 {
     display: flex;
-    grid-template-columns: auto 60%;
-    width: 80%;
-    margin: 3vw 0 0 5vw;
+    width: 85%;
+    margin: 0;
 }
 .container2 img {
-    margin-top: -7vw;
-    width: 40vw;
+    margin-top: -4vw;
+    width: 42vw;
     height: auto;
 }
 
@@ -79,8 +75,7 @@ h2, h2 a {
     border-radius: 20px;
     width: 100%;
     height: auto;
-    padding: 1%;
-    margin: 2vw auto;
+    margin: 2vw 0px;
 }
 
 .container3 {

@@ -60,7 +60,7 @@ return(
             hour="04:00 PM"
         />
         <DateOrange 
-            day={i18n.t('titles.tuesday')}
+            day={i18n.t('titles.sunday')}
             hour="04:00 PM"
         />
         </div>

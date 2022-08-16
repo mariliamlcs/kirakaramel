@@ -58,37 +58,40 @@ export default function Sunny(){
 
     <div className='container3'>
         <div className='titulo-agenda'>
-            <h3>Agenda</h3>
+            <h3>{i18n.t('titles.streamSchedule')}</h3>
             <div className='setinha'></div>
         </div>
         <div className='agenda-dias'>
         <div className='row'>
-        <DateNao 
-            day="Segunda"
+        <DateSim 
+            day={i18n.t('titles.monday')}
+            hour="08:00 PM"
         />
         <DateSim 
-            day="Terça"
-            hour="00:00 PM"
+            day={i18n.t('titles.tuesday')}
+            hour="08:00 PM"
         />
         <DateSim 
-            day="Quarta"
-            hour="00:00 PM"
+            day={i18n.t('titles.wednesday')}
+            hour="10:00 PM"
         />
         <DateSim 
-            day="Quinta"
-            hour="00:00 PM"
+            day={i18n.t('titles.tuesday')}
+            hour="08:00 PM"
         />
         </div>
         <div className='row'>
-        <DateNao 
-            day="Sexta"
+        <DateSim 
+            day={i18n.t('titles.friday')}
+            hour="10:00 PM"
         />
         <DateSim 
-            day="Sábado"
-            hour="00:00 PM"
+            day={i18n.t('titles.saturday')}
+            hour="04:00 PM"
         />
-        <DateNao 
-            day="Domingo"
+        <DateSim 
+            day={i18n.t('titles.sunday')}
+            hour="04:00 PM"
         />
         </div>
         </div>
