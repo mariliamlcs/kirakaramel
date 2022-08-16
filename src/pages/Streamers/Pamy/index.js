@@ -25,13 +25,13 @@ export default function Pamy(){
             <div className='about-me-list'>
                 <ul>
                     <li><b>{i18n.t('titles.streamerName')}</b> Pamy Pampam </li>
-                    <li><b>{i18n.t('titles.streamerLanguage')}</b> </li>
-                    <li><b>{i18n.t('titles.streamerDebutDate')}</b></li>
-                    <li><b>{i18n.t('titles.streamerGender')}</b></li>
+                    <li><b>{i18n.t('titles.streamerLanguage')}</b> {i18n.t('messages.portuguese')}</li>
+                    <li><b>{i18n.t('titles.streamerDebutDate')}</b> {i18n.t('messages.datePamy')}</li>
+                    <li><b>{i18n.t('titles.streamerGender')}</b> {i18n.t('messages.gender')}</li>
                     <li><b>{i18n.t('titles.streamerAge')}</b> 21</li>
                 </ul>
                 <ul>
-                    <li><b>{i18n.t('titles.streamerBirthday')}</b></li>
+                    <li><b>{i18n.t('titles.streamerBirthday')}</b>  {i18n.t('messages.birthdayPamy')}</li>
                     <li><b>{i18n.t('titles.streamerHeight')}</b> 1,56m</li>
                     <li><b>{i18n.t('titles.streamerFanbase')}</b></li>
                     <li><b>{i18n.t('titles.streamerIllustrator')}</b> @YayaChanArtist</li>

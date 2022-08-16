@@ -25,13 +25,13 @@ export default function Hanako(){
             <div className='about-me-list'>
             <ul>
                     <li><b>{i18n.t('titles.streamerName')}</b> Hanako Awing</li>
-                    <li><b>{i18n.t('titles.streamerLanguage')}</b></li>
-                    <li><b>{i18n.t('titles.streamerDebutDate')}</b></li>
+                    <li><b>{i18n.t('titles.streamerLanguage')}</b>  {i18n.t('messages.portuguese')}</li>
+                    <li><b>{i18n.t('titles.streamerDebutDate')}</b> {i18n.t('messages.dateHanako')}</li>
                     <li><b>{i18n.t('titles.streamerGender')}</b> 21 years old</li>
                     <li><b>{i18n.t('titles.streamerAge')}</b></li>
                 </ul>
                 <ul>
-                    <li><b>{i18n.t('titles.streamerBirthday')}</b></li>
+                    <li><b>{i18n.t('titles.streamerBirthday')}</b> {i18n.t('messages.birthdayHanako')}</li>
                     <li><b>{i18n.t('titles.streamerHeight')}</b> 1,70m</li>
                     <li><b>{i18n.t('titles.streamerFanbase')}</b></li>
                     <li><b>{i18n.t('titles.streamerIllustrator')}</b>@G44rt</li>

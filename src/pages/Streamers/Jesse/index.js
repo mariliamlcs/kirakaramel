@@ -25,13 +25,13 @@ export default function Jesse(){
             <div className='about-me-list'>
             <ul>
                     <li><b>{i18n.t('titles.streamerName')}</b> Jesse Llum</li>
-                    <li><b>{i18n.t('titles.streamerLanguage')}</b></li>
-                    <li><b>{i18n.t('titles.streamerDebutDate')}</b></li>
+                    <li><b>{i18n.t('titles.streamerLanguage')}</b> {i18n.t('messages.portuguese')}</li>
+                    <li><b>{i18n.t('titles.streamerDebutDate')}</b> {i18n.t('messages.dateJesse')}</li>
                     <li><b>{i18n.t('titles.streamerGender')}</b></li>
                     <li><b>{i18n.t('titles.streamerAge')}</b> Billions of star years</li>
                 </ul>
                 <ul>
-                    <li><b>{i18n.t('titles.streamerBirthday')}</b></li>
+                    <li><b>{i18n.t('titles.streamerBirthday')}</b> {i18n.t('messages.birthdayJesse')}</li>
                     <li><b>{i18n.t('titles.streamerHeight')}</b> 1,67m</li>
                     <li><b>{i18n.t('titles.streamerFanbase')}</b></li>
                     <li><b>{i18n.t('titles.streamerIllustrator')}</b> @JesseLlum</li>
