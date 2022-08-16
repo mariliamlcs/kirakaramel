@@ -63,9 +63,11 @@ h2, h2 a {
     display: flex;
     width: 85%;
     margin: 0;
+    z-index: 2;
 }
 .container2 img {
-    margin-top: -4vw;
+    z-index: 45;
+    margin-right: -4vw;
     width: 42vw;
     height: auto;
 }
@@ -123,9 +125,4 @@ h2, h2 a {
 }
 p {
     font-size: 1em;
-}
-.img-sobre-gio {
-    margin-top: -5em;
-    z-index: 0;
-    
 }
