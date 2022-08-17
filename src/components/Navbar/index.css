@@ -1,5 +1,5 @@
 .navbar{
-    width: 98%;
+    width: 100%;
     height: auto;
     background-color: #EEA43D;
     color: #fff;
@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: space-between;
     text-transform: uppercase;
-    padding: 1.2vw;
+    padding: 1.2vw 0;
 }
 
 .navbar a {

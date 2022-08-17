@@ -27,6 +27,7 @@ export default function Home(){
     <img src={fineLine} alt=''/>
     </div>
     <div className='streamers-home'>
+      <div className='box-home'>
       <div class='home-icon'><img src={sunnyHome} alt=''/></div>
       <div class='home-icon'><img src={gioHome} alt=''/></div>
       <div class='home-icon'><img src={pamyHome} alt=''/></div>
@@ -34,11 +35,12 @@ export default function Home(){
       <div class='home-icon'><img src={jesseHome} alt=''/></div>
       <div class='home-icon'><img src={ynaHome} alt=''/></div>
       <div class='home-icon'><img src={hanaHome} alt=''/></div>
+      </div>
     </div>
 
   <div className='section-home'>
     <div className='title-welcome'>
-      <h1 className='orange-text'>Prazer, <b>Kira</b></h1><h1 className='brown-text'><b>&nbsp;Kara</b></h1>
+      <h1 className='orange-text'>{i18n.t('titles.homeTitle')} <b>Kira</b></h1><h1 className='brown-text'><b>&nbsp;Kara</b></h1>
     </div>
 
     <div className='text-welcome'>

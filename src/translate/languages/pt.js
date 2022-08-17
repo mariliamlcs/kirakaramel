@@ -26,7 +26,8 @@ const messages = {
                 streamerIllustrator: "Ilustrador(a):",
                 streamerLive2D: "Live 2D:",
                 confirm: "assinar",
-                knowUs: "conheça as vtubers"
+                knowUs: "conheça as vtubers",
+                homeTitle: "Prazer,",
             },
             messages: {
                 readMore: 'Saiba mais',
