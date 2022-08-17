@@ -19,7 +19,7 @@ return(
 <div className="content">
 
     <div className='title-sections'>
-        <p className='brown-text'><b>as</b></p> <p className='orange-text'>streamers</p>
+        <p className='brown-text'><b>{i18n.t('titles.the')}</b></p> <p className='orange-text'>streamers</p>
     </div>
     
     <div className='fine-line'>
@@ -64,7 +64,9 @@ return(
             hour="04:00 PM"
         />
         </div>
-    <p className='read-more'><Link to="/Sunny">{i18n.t('messages.readMore')}</Link> <img src={readMore} alt=""></img></p>
+    <div className='read-more-box'> 
+    <div className='read-more'><Link to="/Sunny">{i18n.t('messages.readMore')}</Link> <img src={readMore} alt=""></img></div>
+    </div>
     </div>
     <div>
         <img src={sunny} alt=""/>
@@ -110,7 +112,9 @@ return(
             hour="05:00 PM"
         />
         </div>
+    <div className='read-more-box'>
         <p className='read-more'><Link to="/Gio">{i18n.t('messages.readMore')}</Link> <img src={readMore} alt=""></img></p>
+    </div>
     </div>
     </div>
     </div>
@@ -150,7 +154,9 @@ return(
             hour="20:00 PM"
         />
         </div>
+    <div className='read-more-box'>
     <p className='read-more'><Link to="/Pamy">{i18n.t('messages.readMore')}</Link> <img src={readMore} alt=""></img></p>
+    </div>
     </div>
     <div>
         <img src={pamy} alt=""/>
@@ -199,7 +205,9 @@ return(
             hour="04:00 PM"
         />
         </div>
-    <p className='read-more'><Link to="/Ming">{i18n.t('messages.readMore')}</Link> <img src={readMore} alt=""></img></p>
+        <div className='read-more-box'>
+        <p className='read-more'><Link to="/Ming">{i18n.t('messages.readMore')}</Link> <img src={readMore} alt=""></img></p>
+        </div>
     </div>
     </div>
     </div>
@@ -240,7 +248,9 @@ return(
             day={i18n.t('titles.sunday')}
         />
         </div>
-    <p className='read-more'><Link to="/Jesse">{i18n.t('messages.readMore')}</Link> <img src={readMore} alt=""></img></p>
+        <div className='read-more-box'>
+            <p className='read-more'><Link to="/Jesse">{i18n.t('messages.readMore')}</Link> <img src={readMore} alt=""></img></p>
+        </div>
     </div>
     <div>
         <img src={jesse} alt=""/>

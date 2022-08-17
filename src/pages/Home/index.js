@@ -21,20 +21,20 @@ export default function Home(){
   <div className='content'>
 
     <div className='title-sections'>
-      <p className='brown-text'><b>as</b></p> <p className='orange-text'>streamers</p>
+      <p className='brown-text'><b>{i18n.t('titles.the')}</b></p> <p className='orange-text'>streamers</p>
     </div>
     <div className='fine-line'>
     <img src={fineLine} alt=''/>
     </div>
     <div className='streamers-home'>
       <div className='box-home'>
-      <div class='home-icon'><img src={sunnyHome} alt=''/></div>
-      <div class='home-icon'><img src={gioHome} alt=''/></div>
-      <div class='home-icon'><img src={pamyHome} alt=''/></div>
-      <div class='home-icon'><img src={mingHome} alt=''/></div>
-      <div class='home-icon'><img src={jesseHome} alt=''/></div>
-      <div class='home-icon'><img src={ynaHome} alt=''/></div>
-      <div class='home-icon'><img src={hanaHome} alt=''/></div>
+      <div class='home-icon'><Link to="/Sunny"><img src={sunnyHome} alt=''/></Link></div>
+      <div class='home-icon'><Link to="/Gio"><img src={gioHome} alt=''/></Link></div>
+      <div class='home-icon'><Link to="/Pamy"><img src={pamyHome} alt=''/></Link></div>
+      <div class='home-icon'><Link to="/Ming"><img src={mingHome} alt=''/></Link></div>
+      <div class='home-icon'><Link to="/Jesse"><img src={jesseHome} alt=''/></Link></div>
+      <div class='home-icon'><Link to="/Ynasshi"><img src={ynaHome} alt=''/></Link></div>
+      <div class='home-icon'><Link to="/Hanako"><img src={hanaHome} alt=''/></Link></div>
       </div>
     </div>
 

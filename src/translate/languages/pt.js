@@ -28,6 +28,7 @@ const messages = {
                 confirm: "assinar",
                 knowUs: "conheça as vtubers",
                 homeTitle: "Prazer,",
+                the: "as",
             },
             messages: {
                 readMore: 'Saiba mais',
