@@ -1,9 +1,13 @@
 import './index.css';
 import imgHome from '../../assets/bannerHome.png';
 import fineLine from '../../assets/fineLine.png';
-import iconGio from '../../assets/gio.png';
-import iconPamy from '../../assets/pamy.png';
-import iconSunny from '../../assets/sunny.png';
+import sunnyHome from '../../assets/sunny-home.png';
+import gioHome from '../../assets/gio-home.png';
+import pamyHome from '../../assets/pamy-home.png';
+import mingHome from '../../assets/ming-home.png';
+import jesseHome from '../../assets/jesse-home.png';
+import ynaHome from '../../assets/yna-home.png';
+import hanaHome from '../../assets/hana-home.png';
 import newsletterBear from '../../assets/newsletterBear.png';
 import { Link } from 'react-router-dom';
 import { i18n } from '../../translate/i18n';
@@ -23,9 +27,13 @@ export default function Home(){
     <img src={fineLine} alt=''/>
     </div>
     <div className='streamers-home'>
-      <img src={iconGio} alt=''/>
-      <img src={iconPamy} alt=''/>
-      <img src={iconSunny} alt=''/>
+      <div class='home-icon'><img src={sunnyHome} alt=''/></div>
+      <div class='home-icon'><img src={gioHome} alt=''/></div>
+      <div class='home-icon'><img src={pamyHome} alt=''/></div>
+      <div class='home-icon'><img src={mingHome} alt=''/></div>
+      <div class='home-icon'><img src={jesseHome} alt=''/></div>
+      <div class='home-icon'><img src={ynaHome} alt=''/></div>
+      <div class='home-icon'><img src={hanaHome} alt=''/></div>
     </div>
 
   <div className='section-home'>
@@ -35,7 +43,7 @@ export default function Home(){
 
     <div className='text-welcome'>
       <p>{i18n.t('messages.textW1')}</p>
-
+    <br/>
       <p>{i18n.t('messages.textW2')}</p>
       <br/>
       <Link to="/streamers" className='button-marrom'>{i18n.t('titles.knowUs')}</Link>

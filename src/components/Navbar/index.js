@@ -18,7 +18,7 @@ return (
     <li><Link to="/shop">Shop</Link></li>
     <li><Link to="/streamers">Streamers</Link></li>
 </ul>
-<ul>
+<ul class='social-navbar'>
     <li><a href='https://twitter.com/KiraKaramel'><img src={iconTwitter} className="icon"/></a></li>
     <li><img src={iconYT} className="icon"/></li>
     <li><a href='https://apoia.se/kirakaramel'><img src={icon3} className="icon"/></a></li>
