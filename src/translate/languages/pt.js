@@ -29,6 +29,7 @@ const messages = {
                 knowUs: "conheça as vtubers",
                 homeTitle: "Prazer,",
                 the: "as",
+                soon: "Em breve",
             },
             messages: {
                 readMore: 'Saiba mais',
@@ -66,6 +67,9 @@ const messages = {
                 birthdayHanako: "25/01",
                 birthdayYnasshi: "22/12",
                 gender: "Feminino",
+                soonText: "Nossa loja está em construção, estamos trabalhando muito para lhe dar a melhor experiência.",
+                soonButtonOne: "Não perca nenhuma novidade",
+                soonButtonTwo: "me avise",
             }
         }
     }

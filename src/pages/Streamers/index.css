@@ -29,7 +29,11 @@
     padding-top: 1vw;
 }
 .flex.left img {
-    margin-left: -1.23em
+    margin-left: -1.23em;
+    max-width: 100%;
+}
+.flex.left .read-more img {
+    margin-left: .5em;
 }
 .read-more-box {
     display: flex;
@@ -39,14 +43,15 @@
     width: 100%;
 }
 
- .read-more a {
+.read-more a {
     font-weight: 600;
     color: #B0B0B0;
     text-transform: uppercase;
     font-size: 1em;
- }
+}
 .read-more img {
     width: .7vw;
+    margin-left: .5em;
 }
 .streamer-right {
     padding-left: 10%;

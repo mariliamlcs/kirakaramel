@@ -64,9 +64,12 @@ return(
             hour="04:00 PM"
         />
         </div>
-    <div className='read-more-box'> 
-    <div className='read-more'><Link to="/Sunny">{i18n.t('messages.readMore')}</Link> <img src={readMore} alt=""></img></div>
-    </div>
+        <div className='read-more-box'> 
+        <div className='read-more'>
+            <Link to="/Sunny">{i18n.t('messages.readMore')}</Link> 
+            <img src={readMore} alt=""></img>
+        </div>
+        </div>
     </div>
     <div>
         <img src={sunny} alt=""/>
@@ -112,9 +115,12 @@ return(
             hour="05:00 PM"
         />
         </div>
-    <div className='read-more-box'>
-        <p className='read-more'><Link to="/Gio">{i18n.t('messages.readMore')}</Link> <img src={readMore} alt=""></img></p>
-    </div>
+        <div className='read-more-box'> 
+        <div className='read-more'>
+            <Link to="/Gio">{i18n.t('messages.readMore')}</Link> 
+            <img src={readMore} alt=""></img>
+        </div>
+        </div>
     </div>
     </div>
     </div>
@@ -154,9 +160,12 @@ return(
             hour="20:00 PM"
         />
         </div>
-    <div className='read-more-box'>
-    <p className='read-more'><Link to="/Pamy">{i18n.t('messages.readMore')}</Link> <img src={readMore} alt=""></img></p>
-    </div>
+        <div className='read-more-box'> 
+        <div className='read-more'>
+            <Link to="/Pamy">{i18n.t('messages.readMore')}</Link> 
+            <img src={readMore} alt=""></img>
+        </div>
+        </div>
     </div>
     <div>
         <img src={pamy} alt=""/>
@@ -205,8 +214,11 @@ return(
             hour="04:00 PM"
         />
         </div>
-        <div className='read-more-box'>
-        <p className='read-more'><Link to="/Ming">{i18n.t('messages.readMore')}</Link> <img src={readMore} alt=""></img></p>
+        <div className='read-more-box'> 
+        <div className='read-more'>
+            <Link to="/Ming">{i18n.t('messages.readMore')}</Link> 
+            <img src={readMore} alt=""></img>
+        </div>
         </div>
     </div>
     </div>
@@ -248,8 +260,11 @@ return(
             day={i18n.t('titles.sunday')}
         />
         </div>
-        <div className='read-more-box'>
-            <p className='read-more'><Link to="/Jesse">{i18n.t('messages.readMore')}</Link> <img src={readMore} alt=""></img></p>
+        <div className='read-more-box'> 
+        <div className='read-more'>
+            <Link to="/Jesse">{i18n.t('messages.readMore')}</Link> 
+            <img src={readMore} alt=""></img>
+        </div>
         </div>
     </div>
     <div>
@@ -299,7 +314,12 @@ return(
             hour="07:00 PM"
         />
         </div>
-    <p className='read-more'><Link to="/Ynasshi">{i18n.t('messages.readMore')}</Link> <img src={readMore} alt=""></img></p>
+        <div className='read-more-box'> 
+        <div className='read-more'>
+            <Link to="/Ynasshi">{i18n.t('messages.readMore')}</Link> 
+            <img src={readMore} alt=""></img>
+        </div>
+        </div>
     </div>
     </div>
     </div>
@@ -341,7 +361,12 @@ return(
             day={i18n.t('titles.sunday')}
         />
         </div>
-    <p className='read-more'><Link to="/Hanako">{i18n.t('messages.readMore')}</Link> <img src={readMore} alt=""></img></p>
+        <div className='read-more-box'> 
+        <div className='read-more'>
+            <Link to="/Hanako">{i18n.t('messages.readMore')}</Link> 
+            <img src={readMore} alt=""></img>
+        </div>
+        </div>
     </div>
     <div>
         <img src={hanako} alt=""/>
