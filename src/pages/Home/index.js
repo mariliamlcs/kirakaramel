@@ -33,8 +33,8 @@ export default function Home(){
       <div class='home-icon'><Link to="/Pamy"><img src={pamyHome} alt=''/></Link></div>
       <div class='home-icon'><Link to="/Ming"><img src={mingHome} alt=''/></Link></div>
       <div class='home-icon'><Link to="/Jesse"><img src={jesseHome} alt=''/></Link></div>
-      <div class='home-icon'><Link to="/Ynasshi"><img src={ynaHome} alt=''/></Link></div>
       <div class='home-icon'><Link to="/Hanako"><img src={hanaHome} alt=''/></Link></div>
+      <div class='home-icon'><Link to="/Ynasshi"><img src={ynaHome} alt=''/></Link></div>
       </div>
     </div>
 
