@@ -28,13 +28,13 @@ export default function Home(){
     </div>
     <div className='streamers-home'>
       <div className='box-home'>
-      <div class='home-icon'><Link to="/Sunny"><img src={sunnyHome} alt=''/></Link></div>
-      <div class='home-icon'><Link to="/Gio"><img src={gioHome} alt=''/></Link></div>
-      <div class='home-icon'><Link to="/Pamy"><img src={pamyHome} alt=''/></Link></div>
-      <div class='home-icon'><Link to="/Ming"><img src={mingHome} alt=''/></Link></div>
-      <div class='home-icon'><Link to="/Jesse"><img src={jesseHome} alt=''/></Link></div>
-      <div class='home-icon'><Link to="/Hanako"><img src={hanaHome} alt=''/></Link></div>
-      <div class='home-icon'><Link to="/Ynasshi"><img src={ynaHome} alt=''/></Link></div>
+      <Link to="/Sunny"><div class='home-icon sunny'></div></Link>
+      <Link to="/Gio"><div class='home-icon gio'></div></Link>
+      <Link to="/Pamy"><div class='home-icon pamy'></div></Link>
+      <Link to="/Ming"><div class='home-icon ming'></div></Link>
+      <Link to="/Jesse"><div class='home-icon jesse'></div></Link>
+      <Link to="/Hanako"><div class='home-icon hanako'></div></Link>
+      <Link to="/Ynasshi"><div class='home-icon ynasshi'></div></Link>
       </div>
     </div>
 

@@ -20,7 +20,7 @@
     width: 100%;
     height: auto;
     background-image: radial-gradient(#F9DEAD,#EEA43D);
-}
+} 
 
 .box-home {
     width: 90%;
@@ -39,6 +39,60 @@
 .home-icon img {
     width: 100%;
     height: auto;
+}
+.home-icon.sunny {
+    width: 12.8vw;
+    height: 20vw;
+    background-image: url('../../assets/sunny-home.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 1s;
+}
+.home-icon.sunny:hover {
+    background-image: url('../../assets/gio-home.png');
+}
+
+.home-icon.gio {
+    width: 12.8vw;
+    height: 20vw;
+    background-image: url('../../assets/gio-home.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.home-icon.pamy {
+    width: 12.8vw;
+    height: 20vw;
+    background-image: url('../../assets/pamy-home.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.home-icon.ming {
+    width: 12.8vw;
+    height: 20vw;
+    background-image: url('../../assets/ming-home.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.home-icon.jesse {
+    width: 12.8vw;
+    height: 20vw;
+    background-image: url('../../assets/jesse-home.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.home-icon.hanako {
+    width: 12.8vw;
+    height: 20vw;
+    background-image: url('../../assets/hana-home.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.home-icon.ynasshi {
+    width: 12.8vw;
+    height: 20vw;
+    background-image: url('../../assets/yna-home.png');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .social-navbar {

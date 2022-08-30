@@ -31,7 +31,7 @@ return(
 <div className='streamer-right'>
     <div className='flex'>
     <div>
-    <h2><Link to="/Sunny">Sunny</Link></h2>
+    <h2><Link to="/Sunny">Sunny Seiki</Link></h2>
         <p>{i18n.t('messages.aboutSunny')}</p>
         <h3>{i18n.t('titles.streamSchedule')}</h3>
         <div className='agenda-streamer'>

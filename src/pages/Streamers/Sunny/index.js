@@ -10,7 +10,7 @@ export default function Sunny(){
     return(
 <div className="content">
     <div className='title-sections pessoal'>
-        <p className='brown-text'><Link to="/Sunny">Sunny</Link></p> 
+        <p className='brown-text'><Link to="/Sunny">Sunny Seiki</Link></p> 
     </div>
     
     <div className='fine-line'>

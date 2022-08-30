@@ -1,7 +1,7 @@
 import '.././page.css';
 import linhaLaranja from '../../../assets/linhalaranja.png';
 import pamyImg1 from '../../../assets/pamy-sobre.png';
-import pamyImg2 from '../../../assets/pamy-sobre.png';
+import pamyImg2 from '../../../assets/pamy-video.png';
 import DateSim from '../../../components/DateSim/DateSim';
 import DateNao from '../../../components/DateNao/DateNao';
 import { Link } from 'react-router-dom';
