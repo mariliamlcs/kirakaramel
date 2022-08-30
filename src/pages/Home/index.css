@@ -16,7 +16,7 @@
 }
 
 .streamers-home {
-    margin-top: 2vw;
+    margin-top: 4vw;
     width: 100%;
     height: auto;
     background-image: radial-gradient(#F9DEAD,#EEA43D);
@@ -34,6 +34,7 @@
     margin: auto;
     width: 100%;
     height: auto;
+    margin-top: -3vw;
 }
 .home-icon img {
     width: 100%;
