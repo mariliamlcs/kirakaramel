@@ -1,5 +1,4 @@
 import './index.css';
-import fundo from "../../assets/fundo-soon.png";
 import estrelas from "../../assets/tres-estrelas.png";
 import { i18n } from '../../translate/i18n';
 

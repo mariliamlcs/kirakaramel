@@ -12,24 +12,25 @@
 
 .flex {
     display: grid;
-    column-gap: 2em;
     margin: 5vw auto;
+    align-items: center;
 }
 .streamer-right .flex {
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 2.5fr 2fr;
 }
 .streamer-left .flex {
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 2fr 2.5fr;
 }
 .flex h2, .flex h3 {
     color: #EEA43D;
-    margin: 1.4em 0;
+    margin: 1.4em 0 1.2em;
 }
 .flex h2 {
-    padding-top: 1vw;
+    padding-top: 4.2vw;
+    margin: 0 0 1em;
 }
 .flex.left img {
-    margin-left: -1.23em;
+    margin-left: -1.4em;
     max-width: 100%;
 }
 .flex.left .read-more img {

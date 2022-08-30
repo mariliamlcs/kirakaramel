@@ -273,12 +273,57 @@ return(
     </div>
     </div>
 
-{/*Ynasshi*/}
+{/*Hanako*/}
 <div className='streamer-left'>
     <div className='flex left'>
     <div>
-        <img src={ynasshi} alt=""/>
+        <img src={hanako} alt=""/>
     </div>
+    <div>
+        <h2><Link to="/Hanako">Hanako</Link></h2>
+        <p>{i18n.t('messages.aboutHanako')}</p>
+        <h3>{i18n.t('titles.streamSchedule')}</h3>
+        <div className='agenda-streamer'>
+        
+        <DateOrange 
+            day={i18n.t('titles.monday')}
+            hour="07:00 PM"
+        />
+        <DateOrange 
+            day={i18n.t('titles.tuesday')}
+            hour="07:00 PM"
+        />
+        <DateOrange 
+            day={i18n.t('titles.wednesday')}
+            hour="07:00 PM"
+        />
+        <DateGrey 
+            day={i18n.t('titles.thursday')}
+        />
+        <DateOrange 
+            day={i18n.t('titles.friday')}
+            hour="07:00 PM"
+        />
+        <DateOrange 
+            day={i18n.t('titles.saturday')}
+            hour="07:00 PM"
+        />
+        <DateGrey 
+            day={i18n.t('titles.sunday')}
+        />
+        </div>
+        <div className='read-more-box'> 
+        <div className='read-more'>
+            <Link to="/Hanako">{i18n.t('messages.readMore')}</Link> 
+            <img src={readMore} alt=""></img>
+        </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <div className='streamer-right'>
+    <div className='flex'>
     <div>
         <h2><Link to="/Ynasshi">Ynasshi</Link></h2>
         <p>{i18n.t('messages.aboutYnasshi')}</p>
@@ -321,55 +366,8 @@ return(
         </div>
         </div>
     </div>
-    </div>
-    </div>
-
-
-{/*Hanako*/}
-<div className='streamer-right'>
-    <div className='flex'>
     <div>
-        <h2><Link to="/Hanako">Hanako</Link></h2>
-        <p>{i18n.t('messages.aboutHanako')}</p>
-        <h3>{i18n.t('titles.streamSchedule')}</h3>
-        <div className='agenda-streamer'>
-        
-        <DateOrange 
-            day={i18n.t('titles.monday')}
-            hour="07:00 PM"
-        />
-        <DateOrange 
-            day={i18n.t('titles.tuesday')}
-            hour="07:00 PM"
-        />
-        <DateOrange 
-            day={i18n.t('titles.wednesday')}
-            hour="07:00 PM"
-        />
-        <DateGrey 
-            day={i18n.t('titles.thursday')}
-        />
-        <DateOrange 
-            day={i18n.t('titles.friday')}
-            hour="07:00 PM"
-        />
-        <DateOrange 
-            day={i18n.t('titles.saturday')}
-            hour="07:00 PM"
-        />
-        <DateGrey 
-            day={i18n.t('titles.sunday')}
-        />
-        </div>
-        <div className='read-more-box'> 
-        <div className='read-more'>
-            <Link to="/Hanako">{i18n.t('messages.readMore')}</Link> 
-            <img src={readMore} alt=""></img>
-        </div>
-        </div>
-    </div>
-    <div>
-        <img src={hanako} alt=""/>
+        <img src={ynasshi} alt=""/>
     </div>
     </div>
     </div>
