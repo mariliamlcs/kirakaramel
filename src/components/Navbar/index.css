@@ -5,7 +5,7 @@
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 1.2vw;
+    font-size: 1vw;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -27,6 +27,9 @@
     padding: 1vw;
 }
 .logo-navbar img {
-    width: 12vw;
+    width: 10vw;
     margin-left: 2vw;
+}
+ul.social-navbar li {
+    width: 1rem;
 }
