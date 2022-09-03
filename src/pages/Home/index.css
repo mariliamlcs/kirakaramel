@@ -32,35 +32,40 @@
 
 .home-icon {
     margin: auto;
-    width: 100%;
-    height: auto;
+    width: 12.8vw;
+    height: 20vw;
     margin-top: -3vw;
+    background: linear-gradient(180deg, transparent 0%, transparent 100%);
+    position: relative;
+    z-index: 1;
 }
-.home-icon:before {
+.home-icon::before {
     content: '';
-    display: block;
-    position: absolute;
-    height: 0%;
-    width: 92%;
-    left: .5vw;
-    bottom: 1.5vw;
-    border-radius: 1vw;
-    transition: height 1s ease-out;
-    background: linear-gradient(180deg, transparent 0%, rgba(92,40,44,1) 100%);
-    margin-top: -3vw;
-}
-.home-icon:hover:before {
+    display: flex;
+    position: relative;
     height: 60%;
+    width: 93%;
+    left: .5vw;
+    bottom: 0;
+    border-radius: 1vw;
+    background: transparent;
+    margin-top: -3vw;
+    background: linear-gradient(180deg, transparent 0%, rgba(92,40,44,1) 100%);
+    z-index: -1;
+    opacity: 0;
+}
+.home-icon:hover::before {
+    height: 60%;
+    top: 33%;
+    opacity: 1;
 }
 .home-icon p {
-    position: absolute;
-    display: block;
-    bottom: 3em;
-    right: 0;
+    position: relative;
+    bottom: 1em;
+    left: 3em;
     text-transform: uppercase;
     color: transparent;
     transform: rotate(-90deg);
-    transition: height 2s ease-in-out;
 }
 .home-icon:hover p {
     color: #fff;
@@ -76,6 +81,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
+    transition: height 2s ease-in-out;
 }
 .home-icon.gio {
     width: 12.8vw;

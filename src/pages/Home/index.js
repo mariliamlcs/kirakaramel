@@ -1,13 +1,6 @@
 import './index.css';
 import imgHome from '../../assets/bannerHome.png';
 import fineLine from '../../assets/fineLine.png';
-import sunnyHome from '../../assets/sunny-home.png';
-import gioHome from '../../assets/gio-home.png';
-import pamyHome from '../../assets/pamy-home.png';
-import mingHome from '../../assets/ming-home.png';
-import jesseHome from '../../assets/jesse-home.png';
-import ynaHome from '../../assets/yna-home.png';
-import hanaHome from '../../assets/hana-home.png';
 import newsletterBear from '../../assets/newsletterBear.png';
 import { Link } from 'react-router-dom';
 import { i18n } from '../../translate/i18n';
