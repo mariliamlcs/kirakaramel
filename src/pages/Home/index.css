@@ -36,6 +36,35 @@
     height: auto;
     margin-top: -3vw;
 }
+.home-icon:before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 0%;
+    width: 92%;
+    left: .5vw;
+    bottom: 1.5vw;
+    border-radius: 1vw;
+    transition: height 1s ease-out;
+    background: linear-gradient(180deg, transparent 0%, rgba(92,40,44,1) 100%);
+    margin-top: -3vw;
+}
+.home-icon:hover:before {
+    height: 60%;
+}
+.home-icon p {
+    position: absolute;
+    display: block;
+    bottom: 3em;
+    right: 0;
+    text-transform: uppercase;
+    color: transparent;
+    transform: rotate(-90deg);
+    transition: height 2s ease-in-out;
+}
+.home-icon:hover p {
+    color: #fff;
+}
 .home-icon img {
     width: 100%;
     height: auto;
@@ -46,12 +75,8 @@
     background-image: url('../../assets/sunny-home.png');
     background-repeat: no-repeat;
     background-size: contain;
-    transition: 1s;
+    position: relative;
 }
-.home-icon.sunny:hover {
-    background-image: url('../../assets/gio-home.png');
-}
-
 .home-icon.gio {
     width: 12.8vw;
     height: 20vw;
