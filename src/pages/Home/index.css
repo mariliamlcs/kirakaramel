@@ -41,7 +41,8 @@
     transition: 0.2s ease-out;
 }
 .home-icon:hover {
-    filter: drop-shadow(-4px 6px 6px rgba(25, 24, 24, 0.4));
+    filter: drop-shadow(-4px 6px 4px rgba(25, 24, 24, 0.5));
+    margin-top: -4vw;
 }
 .home-icon::before {
     content: '';
