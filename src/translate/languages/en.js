@@ -71,7 +71,7 @@ const messages = {
                 soonText: "Our store is under construction, we are working hard to deliver the best experience.",
                 soonButtonOne: "Don't miss our updates",
                 soonButtonTwo: "let me know",
-            }
+            },
         }
     }
 }
