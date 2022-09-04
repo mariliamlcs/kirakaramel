@@ -14,7 +14,7 @@ export default function Home(){
   <div className='content'>
 
     <div className='title-sections'>
-      <p className='brown-text'><b>{i18n.t('titles.theAs')}</b></p> <p className='orange-text'>streamers</p>
+      <p className='brown-text'><b>{i18n.t('titles.the')}</b></p> <p className='orange-text'>streamers</p>
     </div>
     <div className='fine-line'>
     <img src={fineLine} alt=''/>
