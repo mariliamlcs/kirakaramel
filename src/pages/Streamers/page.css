@@ -1,6 +1,6 @@
 .title-sections.pessoal {
     text-transform: capitalize;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 h3, h3 a, p a {
@@ -130,6 +130,7 @@ h2, h2 a {
     margin-top: 6vw;
     margin-right: 13vw;
 }
-p {
+p, .grid-sobre-mim p {
     font-size: 1em;
+    font-weight: 400;
 }
