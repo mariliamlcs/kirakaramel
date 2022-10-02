@@ -16,7 +16,7 @@ h2, h2 a {
     width: 85%;
     margin-top: 6vw;
     display: grid;
-    grid-template-columns: 45% auto;
+    grid-template-columns: 45% 55%;
     border-radius: 0px 20px 20px 0px;
     min-height: max-content;
     position: relative;
@@ -42,11 +42,13 @@ h2, h2 a {
     display: flex;
     width: 100%;
     height: auto;
+    align-items: flex-end;
 }
 
 .imagem-1 img {
     width: 100%;
-    height: auto;
+    height: auto;    
+    align-items: flex-end;
 }
 
 .sm-title {

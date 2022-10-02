@@ -1,4 +1,4 @@
-import '.././page.css';
+import '.././page.css'; 
 import linhaLaranja from '../../../assets/linhalaranja.png';
 import pamyImg1 from '../../../assets/pamy-sobre.png';
 import pamyImg2 from '../../../assets/pamy-video.png';
