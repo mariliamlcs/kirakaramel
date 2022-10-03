@@ -53,7 +53,7 @@ export default function Hanako(){
     <div className='container2'>
         <img src={hanakoImg2} alt=""/>
         <div className='personal-video'>
-        
+         
         </div>
     </div>
 
