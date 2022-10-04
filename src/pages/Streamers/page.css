@@ -79,9 +79,13 @@ h2, h2 a {
 }
 
 .personal-video {
-    background-color: #F9DEAD;
     border-radius: 20px;
-    margin: 2vw 0px;
+    margin: auto;
+    display: flex;
+    align-content: center;
+}
+.personal-video video {
+    border-radius: 20px 20px;
 }
 
 .container3 {
