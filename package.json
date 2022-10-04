@@ -1,24 +1,21 @@
 {
-  "name": "kira-kara",
+  "name": "lia",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@babel/preset-env": "^7.19.3",
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.1.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "build_staging": "PUBLIC_URL=https://kirakaramel.com/ react-scripts build",
-    "i18next": "^21.8.12",
-    "i18next-browser-languagedetector": "^6.1.4",
-    "jsx": "^0.9.89",
+    "aurelia-i18n": "^4.0.3",
+    "i18next-browser-languagedetector": "^6.1.5",
     "react": "^18.2.0",
-    "react-collapsible": "^2.8.4",
-    "react-dom": "^18.0.0",
-    "react-native-video": "^5.2.1",
-    "react-router-dom": "^6.3.0",
-    "react-scripts": "^5.0.1",
-    "web-vitals": "^2.1.4",
-    "yarn": "^1.22.19"
+    "react-collapsible": "^2.10.0",
+    "react-dom": "^18.2.0",
+    "react-jsx": "^1.0.0",
+    "react-router-dom": "^6.4.1",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -42,28 +39,6 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "@babel/core": "^7.11.4",
-    "@babel/plugin-transform-react-jsx": "^7.10.4",
-    "@babel/plugin-transform-react-jsx-self": "^7.10.4",
-    "@babel/preset-env": "^7.11.0",
-    "@babel/preset-react": "^7.10.4",
-    "babel-loader": "^8.1.0",
-    "css-loader": "^4.2.2",
-    "reactstrap": "^8.5.1",
-    "style-loader": "^1.2.1",
-    "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
-  },
-  "babel": {
-    "presets": [
-      "@babel/preset-react",
-      "@babel/preset-env"
-    ],
-    "plugins": [
-      "@babel/plugin-transform-react-jsx"
     ]
   }
 }

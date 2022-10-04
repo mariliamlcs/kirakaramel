@@ -53,7 +53,7 @@ export default function Hanako(){
     <div className='container2'>
         <img src={hanakoImg2} alt=""/>
         <div className='personal-video'>
-        <video width="100%" height="auto" controls >
+        <video width="100%" height="auto" controls autoPlay muted >
             <source src={video} type="video/mp4"/>
         </video>
         </div>
