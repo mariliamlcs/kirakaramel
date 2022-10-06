@@ -10,11 +10,11 @@ const Footer=() =>{
     <footer>
     <div className="footer">
     <ul>
-        <li><a href='https://twitter.com/KiraKaramel'><img src={iconTwitterf} alt='Twitter'/></a></li>
-        <li><a href='https://www.youtube.com/channel/UCCSQdyZCN-sbC-rjw6emvvA'><img src={iconYTf} alt='YouTube'/></a></li>
-        <li><a href='https://apoia.se/kirakaramel'><img src={icon3f} alt='apoia-se'/></a></li>
-        <li><a href='https://www.reddit.com/r/KiraKara/'><img src={iconRedditf} alt='Reddit'/></a></li>
-        <li><a href='https://discord.gg/3eumKbEf4A'><img src={iconDiscordf} alt='Discord'/></a></li>
+        <li><a href='https://twitter.com/KiraKaramel' target='_blank'><img src={iconTwitterf} alt='Twitter'/></a></li>
+        <li><a href='https://www.youtube.com/channel/UCCSQdyZCN-sbC-rjw6emvvA' target='_blank'><img src={iconYTf} alt='YouTube'/></a></li>
+        <li><a href='https://apoia.se/kirakaramel' target='_blank'><img src={icon3f} alt='apoia-se'/></a></li>
+        <li><a href='https://www.reddit.com/r/KiraKara/' target='_blank'><img src={iconRedditf} alt='Reddit'/></a></li>
+        <li><a href='https://discord.gg/3eumKbEf4A' target='_blank'><img src={iconDiscordf} alt='Discord'/></a></li>
     </ul>
     </div>
     </footer>
