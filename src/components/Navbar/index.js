@@ -3,6 +3,8 @@ import logoNavbar from '../../assets/logoNavbar.png';
 import icon3 from '../../assets/iconSM3white.png';
 import iconTwitter from '../../assets/iconTwitterwhite.png';
 import iconYT from '../../assets/iconYouTubewhite.png';
+import iconReddit from '../../assets/iconRedditwhite.png';
+import iconDiscord from '../../assets/iconDiscordwhite.png'
 import { Link } from 'react-router-dom';
 
 const Navbar= () =>{
@@ -20,8 +22,10 @@ return (
 </ul>
 <ul class='social-navbar'>
     <li><a href='https://twitter.com/KiraKaramel'><img src={iconTwitter} className="icon" alt="Twitter"/></a></li>
-    <li><img src={iconYT} className="icon" alt="YouTube"/></li>
+    <li><a href='https://www.youtube.com/channel/UCCSQdyZCN-sbC-rjw6emvvA'><img src={iconYT} className="icon" alt="YouTube"/></a></li>
     <li><a href='https://apoia.se/kirakaramel'><img src={icon3} className="icon" alt="Apoia-se"/></a></li>
+    <li><a href='https://www.reddit.com/r/KiraKara/'><img src={iconReddit} className="icon" alt="Reddit"/></a></li>
+    <li><a href='https://discord.gg/3eumKbEf4A'><img src={iconDiscord} className="icon" alt="Discord"/></a></li>
 </ul>
 </div>
 );
