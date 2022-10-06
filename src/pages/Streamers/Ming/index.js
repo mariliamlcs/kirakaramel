@@ -41,8 +41,9 @@ export default function Ming(){
             </div>
             <h3 className='sm-title'>Redes Sociais</h3>
             <div className='social-media'>
-                <p>Twitter</p>
-                <p>Twitch</p>
+                <p><a href='https://twitter.com/UtahimeMing/' target='_blank'>Twitter</a></p>
+                <p><a href='https://twitch.tv/UtahimeMing/' target='_blank'>Twitch</a></p>
+                <p><a href='https://tiktok.com/@UtahimeMing' target='_blank'>TikTok</a></p>
             </div>
         </div>
         <div className='imagem-1'>
@@ -58,7 +59,7 @@ export default function Ming(){
         </video>
         </div>
     </div>
-
+ 
     <div className='container3'>
         <div className='titulo-agenda'>
             <h3>Agenda</h3>

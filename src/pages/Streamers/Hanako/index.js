@@ -41,15 +41,16 @@ export default function Hanako(){
             </div>
             <h3 className='sm-title'>Redes Sociais</h3>
             <div className='social-media'>
-                <p>Twitter</p>
-                <p>Twitch</p>
+                <p><a href='https://twitter.com/Hanakoawing/' target='_blank'>Twitter</a></p>
+                <p><a href='https://twitch.tv/Hanakoawing/' target='_blank'>Twitch</a></p>
+                <p><a href='https://tiktok.com/@Hanakoawing' target='_blank'>TikTok</a></p>
             </div>
         </div>
         <div className='imagem-1'>
             <img src={hanakoImg1} alt=""/>
         </div>
     </div>
-
+ 
     <div className='container2'>
         <img src={hanakoImg2} alt=""/>
         <div className='personal-video'>

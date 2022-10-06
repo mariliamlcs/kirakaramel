@@ -7,7 +7,7 @@ import DateNao from '../../../components/DateNao/DateNao';
 import { Link } from 'react-router-dom';
 import { i18n } from '../../../translate/i18n';
 // import video from '../../../assets/videos/YNASSHI.mp4'
-
+ 
 export default function Ynasshi(){
     return(
 <div className="content">
@@ -41,8 +41,9 @@ export default function Ynasshi(){
             </div>
             <h3 className='sm-title'>Redes Sociais</h3>
             <div className='social-media'>
-                <p>Twitter</p>
-                <p>Twitch</p>
+                <p><a href='' target='_blank'>Twitter</a></p>
+                <p><a href='' target='_blank'>Twitch</a></p>
+                <p><a href='' target='_blank'>TikTok</a></p>
                 <br/>
             </div>
         </div>

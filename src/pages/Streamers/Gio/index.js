@@ -6,7 +6,7 @@ import DateSim from '../../../components/DateSim/DateSim';
 import DateNao from '../../../components/DateNao/DateNao';
 import { Link } from 'react-router-dom';
 import { i18n } from '../../../translate/i18n';
-
+ 
 export default function Gio(){
     return(
 <div className="content">
@@ -40,8 +40,9 @@ export default function Gio(){
             </div>
             <h3 className='sm-title'>Redes Sociais</h3>
             <div className='social-media'>
-                <p>Twitter</p>
-                <p>Twitch</p>
+                <p><a href='https://twitter.com/suzumegio/' target='_blank'>Twitter</a></p>
+                <p><a href='https://twitch.tv/suzumegio/' target='_blank'>Twitch</a></p>
+                <p><a href='https://tiktok.com/@suzumegio' target='_blank'>TikTok</a></p>
             </div>
         </div>
         <div className='imagem-1'>

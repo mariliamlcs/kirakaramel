@@ -39,8 +39,9 @@ export default function Sunny(){
             </div>
             <h3 className='sm-title'>Redes Sociais</h3>
             <div className='social-media'>
-                <p>Twitter</p>
-                <p>Twitch</p>
+                <p><a href='https://twitter.com/sunnyseiki/' target='_blank'>Twitter</a></p>
+                <p><a href='https://twitch.tv/sunnyseiki/' target='_blank'>Twitch</a></p>
+                <p><a href='https://tiktok.com/@sunnyseiki' target='_blank'>TikTok</a></p>
             </div>
         </div>
         <div className='imagem-1'>

@@ -6,7 +6,7 @@ import DateSim from '../../../components/DateSim/DateSim';
 import DateNao from '../../../components/DateNao/DateNao';
 import { Link } from 'react-router-dom';
 import { i18n } from '../../../translate/i18n';
-
+ 
 export default function Pamy(){
     return(
 <div className="content">
@@ -40,8 +40,9 @@ export default function Pamy(){
             </div>
             <h3 className='sm-title'>Redes Sociais</h3>
             <div className='social-media'>
-                <p>Twitter</p>
-                <p>Twitch</p>
+                <p><a href='https://twitter.com/pamytuber/' target='_blank'>Twitter</a></p>
+                <p><a href='https://twitch.tv/pamytube/' target='_blank'>Twitch</a></p>
+                <p><a href='https://tiktok.com/@pamytuber/' target='_blank'>TikTok</a></p>
             </div>
         </div>
         <div className='imagem-1'>
