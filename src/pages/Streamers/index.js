@@ -1,3 +1,5 @@
+import i18nextOptions from 'i18next'
+import i18next from 'i18next';
 import { Link } from 'react-router-dom';
 import './index.css';
 import fineLine from '../../assets/fineLine.png';
@@ -5,6 +7,7 @@ import readMore from "../../assets/rmore.png";
 import DateGrey from '../../components/DateGrey//DateGrey'; 
 import DateOrange from '../../components/DateOrange/DateOrange';
 import { i18n } from '../../translate/i18n';
+import LanguageDetector from 'i18next-browser-languagedetector';
 import sunny from '../../assets/sunny.png';
 import gio from '../../assets/gio.png';
 import pamy from '../../assets/pamy.png';
@@ -13,8 +16,10 @@ import jesse from '../../assets/jesse.png';
 import hanako from '../../assets/hana.png';
 import ynasshi from '../../assets/ynasshi.png';
 
+i18next.use(LanguageDetector).init(i18nextOptions);
+
 export default function Streamers(){
-return(
+    return(
 <> 
 <div className="content">
 
