@@ -6,7 +6,7 @@ import DateSim from '../../../components/DateSim/DateSim';
 import DateNao from '../../../components/DateNao/DateNao';
 import { Link } from 'react-router-dom';
 import { i18n } from '../../../translate/i18n';
-import video from '../../../assets/JESSE.mp4'
+import video from '../../../assets/videos/JESSE.mp4'
 
 export default function Jesse(){
     return(

@@ -6,7 +6,7 @@ import DateSim from '../../../components/DateSim/DateSim';
 import DateNao from '../../../components/DateNao/DateNao';
 import { Link } from 'react-router-dom';
 import { i18n } from '../../../translate/i18n';
-import video from '../../../assets/HANAKO.mp4'
+import video from '../../../assets/videos/HANAKO.mp4'
 
 export default function Hanako(){
     return(

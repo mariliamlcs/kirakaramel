@@ -6,6 +6,7 @@ import DateSim from '../../../components/DateSim/DateSim';
 import DateNao from '../../../components/DateNao/DateNao';
 import { Link } from 'react-router-dom';
 import { i18n } from '../../../translate/i18n';
+import video from '../../../assets/videos/YNASSHI.mp4'
 
 export default function Ynasshi(){
     return(
@@ -53,7 +54,9 @@ export default function Ynasshi(){
     <div className='container2'>
         <img src={ynaImg2} alt=""/>
         <div className='personal-video'>
-
+        <video width="100%" height="auto" controls autoPlay muted >
+            <source src={video} type="video/mp4"/>
+        </video>
         </div>
     </div>
 
