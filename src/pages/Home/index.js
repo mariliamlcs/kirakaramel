@@ -4,6 +4,7 @@ import fineLine from '../../assets/fineLine.png';
 import newsletterBear from '../../assets/newsletterBear.png';
 import { Link } from 'react-router-dom';
 import { i18n } from '../../translate/i18n';
+import MailchimpSubscribe from "react-mailchimp-subscribe"
 
 export default function Home(){
   return(
@@ -50,6 +51,8 @@ export default function Home(){
     <h1 className='title-newsletter'>{i18n.t('messages.newsletter1')} <br/><b>{i18n.t('messages.newsletter2')}</b></h1>
     <input className='input-newsletter' placeholder='e-mail'/><br/>
     <a href='/' className='send-button'>{i18n.t('titles.confirm')}</a>
+    
+    <MailchimpSubscribe url={process.env.REACT_APP_MAILCHIMP_URL} />
     </div>
     <div>
     <img src={newsletterBear} alt='' className='bear'/>
