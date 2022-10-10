@@ -40,9 +40,9 @@ export default function Gio(){
             </div>
             <h3 className='sm-title'>Redes Sociais</h3>
             <div className='social-media'>
-                <p><a href='https://twitter.com/suzumegio/' target='_blank'>Twitter</a></p>
-                <p><a href='https://twitch.tv/suzumegio/' target='_blank'>Twitch</a></p>
-                <p><a href='https://tiktok.com/@suzumegio' target='_blank'>TikTok</a></p>
+                <p><a href='https://twitter.com/suzumegio/' target='_blank' rel="noreferrer">Twitter</a></p>
+                <p><a href='https://twitch.tv/suzumegio/' target='_blank' rel="noreferrer">Twitch</a></p>
+                <p><a href='https://tiktok.com/@suzumegio' target='_blank' rel="noreferrer">TikTok</a></p>
             </div>
         </div>
         <div className='imagem-1'>
@@ -65,31 +65,31 @@ export default function Gio(){
         <div className='agenda-dias'>
         <div className='row'>
         <DateNao 
-            day="Segunda"
+            day={i18n.t('titles.monday')}
         />
         <DateSim 
-            day="Terça"
+            day={i18n.t('titles.tuesday')}
             hour="00:00 PM"
         />
         <DateSim 
-            day="Quarta"
+            day={i18n.t('titles.wednesday')}
             hour="00:00 PM"
         />
         <DateSim 
-            day="Quinta"
+            day={i18n.t('titles.thursday')}
             hour="00:00 PM"
         />
         </div>
         <div className='row'>
         <DateNao 
-            day="Sexta"
+            day={i18n.t('titles.friday')}
         />
         <DateSim 
-            day="Sábado"
+            day={i18n.t('titles.saturday')}
             hour="00:00 PM"
         />
         <DateNao 
-            day="Domingo"
+            day={i18n.t('titles.sunday')}
         />
         </div>
         </div>

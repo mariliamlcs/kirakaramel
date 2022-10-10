@@ -39,9 +39,9 @@ export default function Sunny(){
             </div>
             <h3 className='sm-title'>Redes Sociais</h3>
             <div className='social-media'>
-                <p><a href='https://twitter.com/sunnyseiki/' target='_blank'>Twitter</a></p>
-                <p><a href='https://twitch.tv/sunnyseiki/' target='_blank'>Twitch</a></p>
-                <p><a href='https://tiktok.com/@sunnyseiki' target='_blank'>TikTok</a></p>
+                <p><a href='https://twitter.com/sunnyseiki/' target='_blank' rel="noreferrer">Twitter</a></p>
+                <p><a href='https://twitch.tv/sunnyseiki/' target='_blank' rel="noreferrer">Twitch</a></p>
+                <p><a href='https://tiktok.com/@sunnyseiki' target='_blank' rel="noreferrer">TikTok</a></p>
             </div>
         </div>
         <div className='imagem-1'>
@@ -66,7 +66,7 @@ export default function Sunny(){
         <DateSim 
             day={i18n.t('titles.monday')}
             hour="08:00 PM"
-        />
+        /> 
         <DateSim 
             day={i18n.t('titles.tuesday')}
             hour="08:00 PM"
@@ -76,7 +76,7 @@ export default function Sunny(){
             hour="10:00 PM"
         />
         <DateSim 
-            day={i18n.t('titles.tuesday')}
+            day={i18n.t('titles.thursday')}
             hour="08:00 PM"
         />
         </div>

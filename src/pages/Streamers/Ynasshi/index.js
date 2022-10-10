@@ -41,9 +41,9 @@ export default function Ynasshi(){
             </div>
             <h3 className='sm-title'>Redes Sociais</h3>
             <div className='social-media'>
-                <p><a href='https://twitter.com/ynasshitv/' target='_blank'>Twitter</a></p>
-                <p><a href='https://twitch.tv/ynasshi/' target='_blank'>Twitch</a></p>
-                <p><a href='https://tiktok.com/@ynasshi' target='_blank'>TikTok</a></p>
+                <p><a href='https://twitter.com/ynasshitv/' target='_blank' rel="noreferrer">Twitter</a></p>
+                <p><a href='https://twitch.tv/ynasshi/' target='_blank' rel="noreferrer">Twitch</a></p>
+                <p><a href='https://tiktok.com/@ynasshi' target='_blank' rel="noreferrer">TikTok</a></p>
                 <br/>
             </div>
         </div>
