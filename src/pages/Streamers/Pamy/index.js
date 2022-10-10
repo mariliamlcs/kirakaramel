@@ -65,31 +65,31 @@ export default function Pamy(){
         <div className='agenda-dias'>
         <div className='row'>
         <DateNao 
-            day="Segunda"
+            day={i18n.t('titles.monday')}
         />
         <DateSim 
-            day="Terça"
+            day={i18n.t('titles.tuesday')}
             hour="00:00 PM"
         />
         <DateSim 
-            day="Quarta"
+            day={i18n.t('titles.wednesday')}
             hour="00:00 PM"
         />
         <DateSim 
-            day="Quinta"
+            day={i18n.t('titles.thursday')}
             hour="00:00 PM"
         />
         </div>
         <div className='row'>
         <DateNao 
-            day="Sexta"
+            day={i18n.t('titles.friday')}
         />
         <DateSim 
-            day="Sábado"
+            day={i18n.t('titles.saturday')}
             hour="00:00 PM"
         />
         <DateNao 
-            day="Domingo"
+            day={i18n.t('titles.sunday')}
         />
         </div>
         </div>
