@@ -17,6 +17,7 @@
     "react-dom": "^18.2.0",
     "react-i18next": "^9.0.10",
     "react-jsx": "^1.0.0",
+    "react-mailchimp-subscribe": "^2.1.3",
     "react-router-dom": "^6.4.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"

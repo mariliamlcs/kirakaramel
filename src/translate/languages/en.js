@@ -72,6 +72,11 @@ const messages = {
                 soonButtonOne: "Don't miss our updates",
                 soonButtonTwo: "let me know",
             },
+            newsletter: {
+                validAdress: "Please enter a valid email address",
+                sending: "Sending...",
+                answer: "Subscription completed!",
+            }
         }
     }
 }

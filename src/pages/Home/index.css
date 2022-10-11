@@ -196,10 +196,6 @@
     align-items: center;
     padding: 0;
 }
-.section-newsletter div {
-    padding-left: 2vw;
-}
-
 .title-newsletter {
     color: #5C282C;
     text-transform: uppercase;
@@ -207,7 +203,7 @@
 }
 
 .input-newsletter {
-    color: #797979;
+    color: #5C282C;
     background: transparent;
     border: 0;
     border-bottom: 1px #fff solid;
@@ -217,19 +213,21 @@
     width: 100%;
 }
 
-.send-button {
+button.send-button {
     background-color: #EEA43D;
     color: #fff;
     text-transform: uppercase;
     padding: .5vw 6vw;
     border-radius: 1vw;
-    width: fit-content;
+    width: auto;
     margin: auto;
     transition: .2s;
     font-weight: 300;
+    border: 2px solid #EEA43D;
 }
-.send-button:hover {
+button.send-button:hover {
     background-color: #5C282C;
+    border: 2px solid #5C282C;
 }
 
 .bear {
@@ -237,4 +235,10 @@
     margin-top: -4%;
     margin-bottom: -3%;
     padding: 0;
+}
+
+.newsletter-form-info {
+    color: #EEA43D;
+    font-size: .8em;
+    margin: 1em auto;
 }

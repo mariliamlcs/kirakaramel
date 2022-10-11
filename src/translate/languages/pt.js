@@ -70,6 +70,11 @@ const messages = {
                 soonText: "Nossa loja está em construção, estamos trabalhando muito para lhe dar a melhor experiência.",
                 soonButtonOne: "Não perca nenhuma novidade",
                 soonButtonTwo: "me avise",
+            },
+            newsletter: {
+                validAddress: "Por favor, insira um e-mail válido",
+                sending: "Enviando...",
+                answer: "Inscrição efetuada!",
             }
         }
     }

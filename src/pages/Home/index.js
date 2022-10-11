@@ -5,7 +5,9 @@ import newsletterBear from '../../assets/newsletterBear.png';
 import { Link } from 'react-router-dom';
 import { i18n } from '../../translate/i18n';
 import MailchimpSubscribe from "react-mailchimp-subscribe"
-import SimpleForm from "react-mailchimp-subscribe"
+import NewsletterForm from '../../NewsletterForm';
+import NewsletterSubscribe from '../../NewsletterSubscribe';
+
 
 export default function Home(){
   return(
@@ -50,22 +52,7 @@ export default function Home(){
   <div className='section-newsletter'>
     <div>
     <h1 className='title-newsletter'>{i18n.t('messages.newsletter1')} <br/><b>{i18n.t('messages.newsletter2')}</b></h1>
-    <input className='input-newsletter' placeholder='e-mail'/><br/>
-    <a href='/' className='send-button'>{i18n.t('titles.confirm')}</a>
-   <>
-   
-  <MailchimpSubscribe
-    url={process.env.REACT_APP_MAILCHIMP_URL}
-    render={({ subscribe, status, message }) => (
-      <div>
-        <SimpleForm onSubmitted={formData => subscribe(formData)} />
-        {status === "sending" && <div style={{ color: "blue" }}>sending...</div>}
-        {status === "error" && <div style={{ color: "red" }} dangerouslySetInnerHTML={{__html: message}}/>}
-        {status === "success" && <div style={{ color: "green" }}>Subscribed !</div>}
-      </div>
-    )}
-  />
-</>
+      <NewsletterSubscribe />
     </div>
     <div>
     <img src={newsletterBear} alt='' className='bear'/>
