@@ -1,6 +1,6 @@
 .em-breve-box {
-    width: 90vw;
-    height: 90vh;
+    width: 95vw;
+    height: 100vh;
     background-image: url('../../assets/fundo-soon.png');
     background-size: contain;
     background-position: center;
@@ -28,6 +28,7 @@
 }
 
 .soon-text {
+    width: ;
     font-weight: 400;
     margin: 2vw 0;
 
