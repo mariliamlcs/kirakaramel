@@ -7,7 +7,7 @@ import { i18n } from '../../translate/i18n';
 import MailchimpSubscribe from "react-mailchimp-subscribe"
 import NewsletterForm from '../../NewsletterForm';
 import NewsletterSubscribe from '../../NewsletterSubscribe';
-import video from '../../home.mp4';
+import video from '../../home.m4v';
 
 
 export default function Home(){
