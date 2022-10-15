@@ -1,5 +1,5 @@
 import './index.css';
-import imgHome from '../../assets/bannerHome.png';
+// import imgHome from '../../assets/bannerHome.png';
 import fineLine from '../../assets/fineLine.png';
 import newsletterBear from '../../assets/newsletterBear.png';
 import { Link } from 'react-router-dom';
@@ -7,13 +7,16 @@ import { i18n } from '../../translate/i18n';
 import MailchimpSubscribe from "react-mailchimp-subscribe"
 import NewsletterForm from '../../NewsletterForm';
 import NewsletterSubscribe from '../../NewsletterSubscribe';
+import video from '../../home.mp4';
 
 
 export default function Home(){
   return(
   <>
   <div className='banner-home'>
-    <img src={imgHome} alt=''/>
+    <video width="100%" height="auto" autoPlay loop muted >
+    <source src={video} type="video/mp4"/>
+    </video>
   </div>
   <div className='content'>
 
