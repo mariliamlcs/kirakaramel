@@ -21,6 +21,10 @@
 .navbar ul {
     width: max-content;
     display: flex;
+    padding: 0;
+}
+.navbar ul.menu {
+    padding-left: 3vw;
 }
 .navbar ul li {
     list-style: none;
@@ -32,4 +36,7 @@
 }
 ul.social-navbar li {
     width: 1rem;
+}
+ul.social-navbar  {
+    padding-right: 1vw;
 }

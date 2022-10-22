@@ -14,7 +14,7 @@ return (
 <img src={logoNavbar} alt='Kira Karamel Project' />
 </div>
 
-<ul>
+<ul className="menu">
     <li><Link to="/">Home</Link></li>
     <li><Link to="/faq">FAQ</Link></li>
     <li><Link to="/shop">Shop</Link></li>
