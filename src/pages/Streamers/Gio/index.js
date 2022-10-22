@@ -6,6 +6,7 @@ import DateSim from '../../../components/DateSim/DateSim';
 import DateNao from '../../../components/DateNao/DateNao';
 import { Link } from 'react-router-dom';
 import { i18n } from '../../../translate/i18n';
+import chibi from '../../../assets/chibi-gio.png';
  
 export default function Gio(){
     return(
@@ -90,7 +91,9 @@ export default function Gio(){
         />
         <DateNao 
             day={i18n.t('titles.sunday')}
+            
         />
+        <img src={chibi} alt="chibi" className="chibi-icon"/>
         </div>
         </div>
         

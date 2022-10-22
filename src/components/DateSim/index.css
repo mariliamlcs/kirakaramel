@@ -7,7 +7,7 @@
 }
 .item-agenda2 {
     width: max-content;
-    height: auto;
+    height: min-content;
     background-color: #EEA43D;
     border-radius: 1vw;
     color: #fff;
