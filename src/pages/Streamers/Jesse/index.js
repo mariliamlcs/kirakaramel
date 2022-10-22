@@ -22,24 +22,24 @@ export default function Jesse(){
     <div className='container1'>
         <div className='grid-sobre-mim'>
             <h3>Sobre Mim</h3>
-            <p>{i18n.t('messages.aboutJesse')}</p>
+            <p>{i18n.t('jesse.about')}</p>
             <div className='about-me-list'>
             <ul>
                     <li><b>{i18n.t('titles.streamerName')}</b> Jesse Llum</li>
                     <li><b>{i18n.t('titles.streamerLanguage')}</b> {i18n.t('messages.portuguese')}</li>
-                    <li><b>{i18n.t('titles.streamerDebutDate')}</b> {i18n.t('messages.dateJesse')}</li>
-                    <li><b>{i18n.t('titles.streamerGender')}</b></li>
-                    <li><b>{i18n.t('titles.streamerAge')}</b> Billions of star years</li>
+                    <li><b>{i18n.t('titles.streamerDebutDate')}</b> {i18n.t('jesse.debut')}</li>
+                    <li><b>{i18n.t('titles.streamerGender')}</b> {i18n.t('messages.gender')} </li>
+                    <li><b>{i18n.t('titles.streamerAge')}</b> Bilhões </li>
                 </ul>
                 <ul>
-                    <li><b>{i18n.t('titles.streamerBirthday')}</b> {i18n.t('messages.birthdayJesse')}</li>
+                    <li><b>{i18n.t('titles.streamerBirthday')}</b> {i18n.t('jesse.birthday')}</li>
                     <li><b>{i18n.t('titles.streamerHeight')}</b> 1,67m</li>
-                    <li><b>{i18n.t('titles.streamerFanbase')}</b></li>
+                    <li><b>{i18n.t('titles.streamerFanbase')}</b> Poeirinhas/Sapecos </li>
                     <li><b>{i18n.t('titles.streamerIllustrator')}</b> @JesseLlum</li>
                     <li><b>{i18n.t('titles.streamerLive2D')}</b> @Driguerk</li>
                 </ul>
             </div>
-            <h3 className='sm-title'>Redes Sociais</h3>
+            <h3 className='sm-title'>{i18n.t('titles.sm')}</h3>
             <div className='social-media'>
                 <p><a href='https://twitter.com/teste/JesseLlum' target='_blank' rel="noreferrer">Twitter</a></p>
                 <p><a href='https://twitch.tv/JesseLlum/' target='_blank' rel="noreferrer">Twitch</a></p>

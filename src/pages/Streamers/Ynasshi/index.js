@@ -22,24 +22,24 @@ export default function Ynasshi(){
     <div className='container1'>
         <div className='grid-sobre-mim'>
             <h3>Sobre Mim</h3>
-            <p>{i18n.t('messages.aboutYnasshi')}</p>
+            <p>{i18n.t('ynasshi.about')}</p>
             <div className='about-me-list'>
                 <ul>
                     <li><b>{i18n.t('titles.streamerName')}</b> Ynasshi</li>
                     <li><b>{i18n.t('titles.streamerLanguage')}</b> {i18n.t('messages.portuguese')}</li>
-                    <li><b>{i18n.t('titles.streamerDebutDate')}</b> {i18n.t('messages.dateSunny')}</li>
+                    <li><b>{i18n.t('titles.streamerDebutDate')}</b> {i18n.t('ynasshi.debut')}</li>
                     <li><b>{i18n.t('titles.streamerGender')}</b> {i18n.t('messages.gender')}</li>
-                    <li><b>{i18n.t('titles.streamerAge')}</b> yes</li>
+                    <li><b>{i18n.t('titles.streamerAge')}</b> sim </li>
                 </ul>
                 <ul>
-                    <li><b>{i18n.t('titles.streamerBirthday')}</b> {i18n.t('messages.birthdaySunny')}</li>
+                    <li><b>{i18n.t('titles.streamerBirthday')}</b> {i18n.t('ynasshi.birthday')}</li>
                     <li><b>{i18n.t('titles.streamerHeight')}</b> 1,63m</li>
                     <li><b>{i18n.t('titles.streamerFanbase')}</b></li>
                     <li><b>{i18n.t('titles.streamerIllustrator')}</b> @naco_nyako</li>
                     <li><b>{i18n.t('titles.streamerLive2D')}</b> @naco_nyako</li>
                 </ul>
             </div>
-            <h3 className='sm-title'>Redes Sociais</h3>
+            <h3 className='sm-title'>{i18n.t('titles.sm')}</h3>
             <div className='social-media'>
                 <p><a href='https://twitter.com/ynasshitv/' target='_blank' rel="noreferrer">Twitter</a></p>
                 <p><a href='https://twitch.tv/ynasshi/' target='_blank' rel="noreferrer">Twitch</a></p>

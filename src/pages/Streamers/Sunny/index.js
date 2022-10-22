@@ -20,24 +20,24 @@ export default function Sunny(){
     <div className='container1'>
         <div className='grid-sobre-mim'>
             <h3>Sobre Mim</h3>
-            <p>{i18n.t('messages.aboutSunny')}</p>
+            <p>{i18n.t('sunny.about')}</p>
             <div className='about-me-list'>
                 <ul>
                     <li><b>{i18n.t('titles.streamerName')}</b> Sunny Seiki</li>
                     <li><b>{i18n.t('titles.streamerLanguage')}</b> {i18n.t('messages.portuguese')}</li>
-                    <li><b>{i18n.t('titles.streamerDebutDate')}</b> {i18n.t('messages.dateSunny')}</li>
+                    <li><b>{i18n.t('titles.streamerDebutDate')}</b> {i18n.t('sunny.debut')}</li>
                     <li><b>{i18n.t('titles.streamerGender')}</b> {i18n.t('messages.gender')}</li>
                     <li><b>{i18n.t('titles.streamerAge')}</b> 21</li>
                 </ul>
                 <ul>
-                    <li><b>{i18n.t('titles.streamerBirthday')}</b> {i18n.t('messages.birthdaySunny')}</li>
+                    <li><b>{i18n.t('titles.streamerBirthday')}</b> {i18n.t('sunny.birthday')}</li>
                     <li><b>{i18n.t('titles.streamerHeight')}</b> 1,70m</li>
                     <li><b>{i18n.t('titles.streamerFanbase')}</b> Seikilhos</li>
                     <li><b>{i18n.t('titles.streamerIllustrator')}</b> @Winyaboo</li>
                     <li><b>{i18n.t('titles.streamerLive2D')}</b> @Morigurath</li>
                 </ul>
             </div>
-            <h3 className='sm-title'>Redes Sociais</h3>
+            <h3 className='sm-title'>{i18n.t('titles.sm')}</h3>
             <div className='social-media'>
                 <p><a href='https://twitter.com/sunnyseiki/' target='_blank' rel="noreferrer">Twitter</a></p>
                 <p><a href='https://twitch.tv/sunnyseiki/' target='_blank' rel="noreferrer">Twitch</a></p>
