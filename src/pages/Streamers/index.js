@@ -37,7 +37,7 @@ export default function Streamers(){
     <div className='flex'>
     <div>
     <h2><Link to="/Sunny">Sunny Seiki</Link></h2>
-        <p>{i18n.t('messages.aboutSunny')}</p>
+        <p>{i18n.t('sunny.about')}</p>
         <h3>{i18n.t('titles.streamSchedule')}</h3>
         <div className='agenda-streamer'>
         <DateOrange 
@@ -90,7 +90,7 @@ export default function Streamers(){
     </div>
     <div>
         <h2><Link to="/Gio">Gio</Link></h2>
-        <p>{i18n.t('messages.aboutGio')}</p>
+        <p>{i18n.t('gio.about')}</p>
         <h3>{i18n.t('titles.streamSchedule')}</h3>
         <div className='agenda-streamer'>
         
@@ -135,7 +135,7 @@ export default function Streamers(){
     <div className='flex'>
     <div>
         <h2><Link to="/Pamy">Pamy</Link></h2>
-        <p>{i18n.t('messages.aboutPamy')}</p>
+        <p>{i18n.t('pamy.about')}</p>
         <h3>{i18n.t('titles.streamSchedule')}</h3>
         <div className='agenda-streamer'>
         
@@ -186,7 +186,7 @@ export default function Streamers(){
     </div>
     <div>
         <h2><Link to="/Ming">Ming</Link></h2>
-        <p>{i18n.t('messages.aboutMing')}</p>
+        <p>{i18n.t('ming.about')}</p>
         <h3>{i18n.t('titles.streamSchedule')}</h3>
         <div className='agenda-streamer'>
         
@@ -234,7 +234,7 @@ export default function Streamers(){
     <div className='flex'>
     <div>
         <h2><Link to="/Jesse">Jesse</Link></h2>
-        <p>{i18n.t('messages.aboutJesse')}</p>
+        <p>{i18n.t('jesse.about')}</p>
         <h3>{i18n.t('titles.streamSchedule')}</h3>
         <div className='agenda-streamer'>
         
@@ -286,7 +286,7 @@ export default function Streamers(){
     </div>
     <div>
         <h2><Link to="/Hanako">Hanako</Link></h2>
-        <p>{i18n.t('messages.aboutHanako')}</p>
+        <p>{i18n.t('hanako.about')}</p>
         <h3>{i18n.t('titles.streamSchedule')}</h3>
         <div className='agenda-streamer'>
         
@@ -331,7 +331,7 @@ export default function Streamers(){
     <div className='flex'>
     <div>
         <h2><Link to="/Ynasshi">Ynasshi</Link></h2>
-        <p>{i18n.t('messages.aboutYnasshi')}</p>
+        <p>{i18n.t('ynasshi.about')}</p>
         <h3>{i18n.t('titles.streamSchedule')}</h3>
         <div className='agenda-streamer'>
         
