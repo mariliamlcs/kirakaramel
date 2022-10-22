@@ -5,6 +5,7 @@ import sunnyImg2 from '../../../assets/sunny-video.png';
 import DateSim from '../../../components/DateSim/DateSim';
 import { Link } from 'react-router-dom';
 import { i18n } from '../../../translate/i18n';
+import chibi from '../../../assets/chibi-sunny.png';
 
 export default function Sunny(){
     return(
@@ -93,6 +94,7 @@ export default function Sunny(){
             day={i18n.t('titles.sunday')}
             hour="04:00 PM"
         />
+        <img src={chibi} alt="chibi" className="chibi-icon"/>
         </div>
         </div>
         

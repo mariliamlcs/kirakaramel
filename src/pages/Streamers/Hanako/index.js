@@ -6,6 +6,7 @@ import DateSim from '../../../components/DateSim/DateSim';
 import DateNao from '../../../components/DateNao/DateNao';
 import { Link } from 'react-router-dom';
 import { i18n } from '../../../translate/i18n';
+import chibi from '../../../assets/chibi-hanako.png';
 // import video from '../../../assets/videos/HANAKO.mp4'
 
 export default function Hanako(){
@@ -94,6 +95,7 @@ export default function Hanako(){
         <DateNao 
             day={i18n.t('titles.sunday')}
         />
+        <img src={chibi} alt="chibi" className="chibi-icon"/>
         </div>
         </div>
         

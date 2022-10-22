@@ -6,6 +6,7 @@ import DateSim from '../../../components/DateSim/DateSim';
 import DateNao from '../../../components/DateNao/DateNao';
 import { Link } from 'react-router-dom';
 import { i18n } from '../../../translate/i18n';
+import chibi from '../../../assets/chibi-pamy.png';
  
 export default function Pamy(){
     return(
@@ -91,6 +92,7 @@ export default function Pamy(){
         <DateNao 
             day={i18n.t('titles.sunday')}
         />
+        <img src={chibi} alt="chibi" className="chibi-icon"/>
         </div>
         </div>
         
