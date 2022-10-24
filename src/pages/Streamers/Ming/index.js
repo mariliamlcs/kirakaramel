@@ -23,7 +23,7 @@ export default function Ming(){
     <div className='container1'>
         <div className='grid-sobre-mim'>
             <h3>Sobre Mim</h3>
-            <p>{i18n.t('ming-about')}</p>
+            <p>{i18n.t('ming.about')}</p>
             <div className='about-me-list'>
                 <ul>
                     <li><b>{i18n.t('titles.streamerName')}</b> Utahime Ming</li>
