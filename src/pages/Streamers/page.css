@@ -137,11 +137,11 @@ h2, h2 a {
 }
 
 .chibi-icon {
-    width: 10vw;
+    width: 20vw;
     position: absolute;
     right: 0;
-    margin-right: 20vw;
-    bottom: 1vw;
+    margin-right: 14vw;
+    bottom: 0;
 }
 p, .grid-sobre-mim p {
     font-size: 1em;
