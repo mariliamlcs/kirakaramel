@@ -7,6 +7,9 @@ import DateNao from '../../../components/DateNao/DateNao';
 import { Link } from 'react-router-dom';
 import { i18n } from '../../../translate/i18n';
 import chibi from '../../../assets/chibi-pamy.png';
+import iconTwitter from '../../../assets/iconTwitter.png';
+import iconTwitch from '../../../assets/iconTwitch.png';
+import iconTiktok from '../../../assets/iconTiktok.png';
  
 export default function Pamy(){
     return(
@@ -41,9 +44,9 @@ export default function Pamy(){
             </div>
             <h3 className='sm-title'>{i18n.t('titles.sm')}</h3>
             <div className='social-media'>
-                <p><a href='https://twitter.com/pamytuber/' target='_blank' rel="noreferrer">Twitter</a></p>
-                <p><a href='https://twitch.tv/pamytube/' target='_blank' rel="noreferrer">Twitch</a></p>
-                <p><a href='https://tiktok.com/@pamytuber/' target='_blank' rel="noreferrer">TikTok</a></p>
+                <p><a href='https://twitter.com/pamytuber/' target='_blank' rel="noreferrer"><img src={iconTwitter} alt="Twitter"/></a></p>
+                <p><a href='https://twitch.tv/pamytube/' target='_blank' rel="noreferrer"><img src={iconTwitch} alt="Twitch"/></a></p>
+                <p><a href='https://tiktok.com/@pamytuber/' target='_blank' rel="noreferrer"><img src={iconTiktok} alt="TikTok"/></a></p>
             </div>
         </div>
         <div className='imagem-1'>

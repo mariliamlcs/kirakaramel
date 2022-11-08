@@ -70,6 +70,9 @@ h2, h2 a {
     column-gap: 1em;
     margin: 0;
 }
+.social-media img {
+    margin-top: 1vw;
+}
 
 .container2 {
     display: grid;
