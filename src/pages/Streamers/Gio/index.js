@@ -76,15 +76,14 @@ export default function Gio(){
         />
         <DateSim 
             day={i18n.t('titles.tuesday')}
-            hour="00:00 PM"
+            hour="05:00 PM"
         />
-        <DateSim 
+        <DateNao 
             day={i18n.t('titles.wednesday')}
-            hour="00:00 PM"
         />
         <DateSim 
             day={i18n.t('titles.thursday')}
-            hour="00:00 PM"
+            hour="05:00 PM"
         />
         </div>
         <div className='row'>
@@ -93,11 +92,11 @@ export default function Gio(){
         />
         <DateSim 
             day={i18n.t('titles.saturday')}
-            hour="00:00 PM"
+            hour="05:00 PM"
         />
-        <DateNao 
+        <DateSim 
             day={i18n.t('titles.sunday')}
-            
+            hour="05:00 PM"
         />
         <img src={chibi} alt="chibi" className="chibi-icon"/>
         </div>

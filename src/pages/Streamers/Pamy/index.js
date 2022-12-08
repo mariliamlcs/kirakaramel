@@ -11,6 +11,7 @@ import iconTwitter from '../../../assets/iconTwitter.png';
 import iconTwitch from '../../../assets/iconTwitch.png';
 import iconTiktok from '../../../assets/iconTiktok.png';
 import iconInstagram from '../../../assets/iconInstagramwhite.png';
+import iconYoutube from '../../../assets/youtube.png'
 import Video from '../../../assets/Videos/Pamy.mp4'
 
 export default function Pamy(){
@@ -50,6 +51,7 @@ export default function Pamy(){
                 <p><a href='https://twitch.tv/pamytube/' target='_blank' rel="noreferrer"><img src={iconTwitch} alt="Twitch"/></a></p>
                 <p><a href='https://tiktok.com/@pamytuber/' target='_blank' rel="noreferrer"><img src={iconTiktok} alt="TikTok"/></a></p>
                 <p><a href='https://instagram.com/@pamytube_/' target='_blank' rel="noreferrer"><img src={iconInstagram} alt="Instagram"/></a></p>
+                <p><a href='https://www.youtube.com/channel/UCszidwU-9T-8LWSppuSW0Qg' target='_blank' rel="noreferrer"><img src={iconYoutube} alt="YouTube"/></a></p>
             </div>
         </div>
         <div className='imagem-1'>
@@ -78,27 +80,27 @@ export default function Pamy(){
         />
         <DateSim 
             day={i18n.t('titles.tuesday')}
-            hour="00:00 PM"
+            hour="08:00 PM"
         />
         <DateSim 
             day={i18n.t('titles.wednesday')}
-            hour="00:00 PM"
+            hour="08:00 PM"
         />
-        <DateSim 
+        <DateNao 
             day={i18n.t('titles.thursday')}
-            hour="00:00 PM"
         />
         </div>
         <div className='row'>
-        <DateNao 
+        <DateSim 
             day={i18n.t('titles.friday')}
+            hour="08:00 PM"
+        />
+        <DateNao 
+            day={i18n.t('titles.saturday')}
         />
         <DateSim 
-            day={i18n.t('titles.saturday')}
-            hour="00:00 PM"
-        />
-        <DateNao 
             day={i18n.t('titles.sunday')}
+            hour="08:00 PM"
         />
         <img src={chibi} alt="chibi" className="chibi-icon"/>
         </div>

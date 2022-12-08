@@ -3,13 +3,13 @@ import linhaLaranja from '../../../assets/linhalaranja.png';
 import ynaImg1 from '../../../assets/ynasshi-sobre.png';
 import ynaImg2 from '../../../assets/ynasshi-video.png';
 import DateSim from '../../../components/DateSim/DateSim';
-import DateNao from '../../../components/DateNao/DateNao';
 import { Link } from 'react-router-dom';
 import { i18n } from '../../../translate/i18n';
 import chibi from '../../../assets/chibi-ynasshi.png';
 import iconTwitter from '../../../assets/iconTwitter.png';
 import iconTwitch from '../../../assets/iconTwitch.png';
 import iconTiktok from '../../../assets/iconTiktok.png';
+import iconYoutube from '../../../assets/youtube.png';
 import Video from '../../../assets/Videos/Ynasshi.mp4'
  
 export default function Ynasshi(){
@@ -48,6 +48,7 @@ export default function Ynasshi(){
                 <p><a href='https://twitter.com/ynasshitv/' target='_blank' rel="noreferrer"><img src={iconTwitter} alt="Twitter"/></a></p>
                 <p><a href='https://twitch.tv/ynasshi/' target='_blank' rel="noreferrer"><img src={iconTwitch} alt="Twitch"/></a></p>
                 <p><a href='https://tiktok.com/@ynasshi' target='_blank' rel="noreferrer"><img src={iconTiktok} alt="TikTok"/></a></p>
+                <p><a href='https://www.youtube.com/channel/UCv7rELbEd5-6ioOyKRNRNow' target='_blank' rel="noreferrer"><img src={iconYoutube} alt="Youtube"/></a></p>
                 <br/>
             </div>
         </div>
@@ -72,32 +73,36 @@ export default function Ynasshi(){
         </div>
         <div className='agenda-dias'>
         <div className='row'>
-        <DateNao 
+        <DateSim 
             day={i18n.t('titles.monday')}
+            hour="07:00 PM"
         />
         <DateSim 
             day={i18n.t('titles.tuesday')}
-            hour="00:00 PM"
+            hour="07:00 PM"
         />
         <DateSim 
             day={i18n.t('titles.wednesday')}
-            hour="00:00 PM"
+            hour="07:00 PM"
         />
         <DateSim 
             day={i18n.t('titles.thursday')}
-            hour="00:00 PM"
+            hour="07:00 PM"
         />
+        
         </div>
         <div className='row'>
-        <DateNao 
+        <DateSim 
             day={i18n.t('titles.friday')}
+            hour="07:00 PM"
         />
         <DateSim 
             day={i18n.t('titles.saturday')}
-            hour="00:00 PM"
+            hour="07:00 PM"
         />
-        <DateNao 
+        <DateSim 
             day={i18n.t('titles.sunday')}
+            hour="07:00 PM"
         />
         <img src={chibi} alt="chibi" className="chibi-icon"/>
         </div>

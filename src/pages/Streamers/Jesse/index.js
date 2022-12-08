@@ -10,6 +10,7 @@ import chibi from '../../../assets/chibi-jesse.png';
 import iconTwitter from '../../../assets/iconTwitter.png';
 import iconTwitch from '../../../assets/iconTwitch.png';
 import iconTiktok from '../../../assets/iconTiktok.png';
+import iconYoutube from '../../../assets/youtube.png'
 import Video from '../../../assets/Videos/Jesse.mp4'
 
 export default function Jesse(){
@@ -48,6 +49,7 @@ export default function Jesse(){
                 <p><a href='https://twitter.com/teste/JesseLlum' target='_blank' rel="noreferrer"><img src={iconTwitter} alt="Twitter"/></a></p>
                 <p><a href='https://twitch.tv/JesseLlum/' target='_blank' rel="noreferrer"><img src={iconTwitch} alt="Twitch"/></a></p>
                 <p><a href='https://tiktok.com/@JesseLlum' target='_blank' rel="noreferrer"><img src={iconTiktok} alt="TikTok"/></a></p>
+                <p><a href='https://www.youtube.com/channel/UCR3O-Ps1Q6CXrDRdSFvEHtA' target='_blank' rel="noreferrer"><img src={iconYoutube} alt="Youtube"/></a></p>
             </div>
         </div>
         <div className='imagem-1'>
@@ -71,32 +73,33 @@ export default function Jesse(){
         </div>
         <div className='agenda-dias'>
         <div className='row'>
-        <DateNao 
-            day={i18n.t('titles.monday')}
-        />
         <DateSim 
+            day={i18n.t('titles.monday')}
+            hour="04:00 PM"
+        />
+        <DateNao 
             day={i18n.t('titles.tuesday')}
-            hour="00:00 PM"
         />
         <DateSim 
             day={i18n.t('titles.wednesday')}
-            hour="00:00 PM"
+            hour="04:00 PM"
         />
         <DateSim 
             day={i18n.t('titles.thursday')}
-            hour="00:00 PM"
+            hour="04:00 PM"
         />
         </div>
         <div className='row'>
-        <DateNao 
+        <DateNao
             day={i18n.t('titles.friday')}
         />
         <DateSim 
             day={i18n.t('titles.saturday')}
-            hour="00:00 PM"
+            hour="03:00 PM"
         />
-        <DateNao 
+        <DateSim 
             day={i18n.t('titles.sunday')}
+            hour="03:00 PM"
         />
         <img src={chibi} alt="chibi" className="chibi-icon"/>
         </div>

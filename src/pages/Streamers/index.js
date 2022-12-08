@@ -46,15 +46,14 @@ export default function Streamers(){
         />
         <DateOrange 
             day={i18n.t('titles.tuesday')}
-            hour="08:00 PM"
+            hour="09:00 PM"
         />
         <DateOrange 
             day={i18n.t('titles.wednesday')}
-            hour="10:00 PM"
+            hour="9:00 PM"
         />
-        <DateOrange 
+        <DateGrey 
             day={i18n.t('titles.tuesday')}
-            hour="08:00 PM"
         />
         <DateOrange 
             day={i18n.t('titles.friday')}
@@ -144,25 +143,25 @@ export default function Streamers(){
         />
         <DateOrange 
             day={i18n.t('titles.tuesday')}
-            hour="20:00 PM"
+            hour="08:00 PM"
         />
         <DateOrange 
             day={i18n.t('titles.wednesday')}
-            hour="20:00 PM"
+            hour="08:00 PM"
         />
         <DateGrey 
             day={i18n.t('titles.thursday')}
         />
         <DateOrange 
             day={i18n.t('titles.friday')}
-            hour="20:00 PM"
+            hour="08:00 PM"
         />
         <DateGrey 
             day={i18n.t('titles.saturday')}
         />
         <DateOrange 
             day={i18n.t('titles.sunday')}
-            hour="20:00 PM"
+            hour="08:00 PM"
         />
         </div>
         <div className='read-more-box'> 
@@ -194,25 +193,22 @@ export default function Streamers(){
             day={i18n.t('titles.monday')}
             hour="08:00 PM"
         />
-        <DateOrange 
+        <DateGrey
             day={i18n.t('titles.tuesday')}
-            hour="08:00 PM"
         />
         <DateOrange 
             day={i18n.t('titles.wednesday')}
             hour="10:00 PM"
         />
-        <DateOrange 
+        <DateGrey 
             day={i18n.t('titles.tuesday')}
-            hour="08:00 PM"
         />
         <DateOrange 
             day={i18n.t('titles.friday')}
             hour="10:00 PM"
         />
-        <DateOrange 
+        <DateGrey 
             day={i18n.t('titles.saturday')}
-            hour="04:00 PM"
         />
         <DateOrange 
             day={i18n.t('titles.tuesday')}
@@ -240,29 +236,29 @@ export default function Streamers(){
         
         <DateOrange 
             day={i18n.t('titles.monday')}
-            hour="07:00 PM"
+            hour="04:00 PM"
         />
-        <DateOrange 
+        <DateGrey 
             day={i18n.t('titles.tuesday')}
-            hour="07:00 PM"
         />
         <DateOrange 
             day={i18n.t('titles.wednesday')}
-            hour="07:00 PM"
-        />
-        <DateGrey 
-            day={i18n.t('titles.thursday')}
+            hour="04:00 PM"
         />
         <DateOrange 
+            day={i18n.t('titles.thursday')}
+            hour="04:00 PM"
+        />
+        <DateGrey
             day={i18n.t('titles.friday')}
-            hour="07:00 PM"
         />
         <DateOrange 
             day={i18n.t('titles.saturday')}
-            hour="07:00 PM"
+            hour="03:00 PM"
         />
-        <DateGrey 
+        <DateOrange 
             day={i18n.t('titles.sunday')}
+            hour="03:00 PM"
         />
         </div>
         <div className='read-more-box'> 
@@ -290,31 +286,31 @@ export default function Streamers(){
         <h3>{i18n.t('titles.streamSchedule')}</h3>
         <div className='agenda-streamer'>
         
-        <DateOrange 
+        <DateGrey 
             day={i18n.t('titles.monday')}
-            hour="07:00 PM"
         />
         <DateOrange 
             day={i18n.t('titles.tuesday')}
-            hour="07:00 PM"
-        />
-        <DateOrange 
-            day={i18n.t('titles.wednesday')}
-            hour="07:00 PM"
+            hour="06:00 PM"
         />
         <DateGrey 
+            day={i18n.t('titles.wednesday')}
+        />
+        <DateOrange 
             day={i18n.t('titles.thursday')}
+            hour="06:00 PM"
         />
         <DateOrange 
             day={i18n.t('titles.friday')}
-            hour="07:00 PM"
+            hour="06:00 PM"
         />
         <DateOrange 
             day={i18n.t('titles.saturday')}
-            hour="07:00 PM"
+            hour="04:00 PM"
         />
-        <DateGrey 
+        <DateOrange 
             day={i18n.t('titles.sunday')}
+            hour="04:00 PM"
         />
         </div>
         <div className='read-more-box'> 
