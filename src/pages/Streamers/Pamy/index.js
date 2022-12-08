@@ -10,7 +10,9 @@ import chibi from '../../../assets/chibi-pamy.png';
 import iconTwitter from '../../../assets/iconTwitter.png';
 import iconTwitch from '../../../assets/iconTwitch.png';
 import iconTiktok from '../../../assets/iconTiktok.png';
- 
+import iconInstagram from '../../../assets/iconInstagramwhite.png';
+import Video from 'Video.js'
+
 export default function Pamy(){
     return(
 <div className="content">
@@ -47,6 +49,7 @@ export default function Pamy(){
                 <p><a href='https://twitter.com/pamytuber/' target='_blank' rel="noreferrer"><img src={iconTwitter} alt="Twitter"/></a></p>
                 <p><a href='https://twitch.tv/pamytube/' target='_blank' rel="noreferrer"><img src={iconTwitch} alt="Twitch"/></a></p>
                 <p><a href='https://tiktok.com/@pamytuber/' target='_blank' rel="noreferrer"><img src={iconTiktok} alt="TikTok"/></a></p>
+                <p><a href='https://instagram.com/@pamytube_/' target='_blank' rel="noreferrer"><img src={iconInstagram} alt="Instagram"/></a></p>
             </div>
         </div>
         <div className='imagem-1'>
@@ -57,7 +60,9 @@ export default function Pamy(){
     <div className='container2'>
         <img src={pamyImg2} alt=""/>
         <div className='personal-video'>
-
+        <video width="100%" height="auto" controls autoPlay muted >
+            <Video />
+        </video>
         </div>
     </div>
 
