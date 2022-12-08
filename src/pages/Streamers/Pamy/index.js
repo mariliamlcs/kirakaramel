@@ -11,7 +11,7 @@ import iconTwitter from '../../../assets/iconTwitter.png';
 import iconTwitch from '../../../assets/iconTwitch.png';
 import iconTiktok from '../../../assets/iconTiktok.png';
 import iconInstagram from '../../../assets/iconInstagramwhite.png';
-import Video from 'Video.js'
+import Video from './Video.js'
 
 export default function Pamy(){
     return(
