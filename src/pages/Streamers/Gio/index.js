@@ -10,6 +10,7 @@ import chibi from '../../../assets/chibi-gio.png';
 import iconTwitter from '../../../assets/iconTwitter.png';
 import iconTwitch from '../../../assets/iconTwitch.png';
 import iconTiktok from '../../../assets/iconTiktok.png';
+import Video from '../../../assets/Videos/Gio.mp4'
  
 export default function Gio(){
     return(
@@ -57,7 +58,9 @@ export default function Gio(){
     <div className='container2 video'>
         <img src={gioImg2} alt=''/>
         <div className='personal-video'>
-
+        <video width="100%" height="auto" controls autoPlay loop muted>
+            <source src={Video} type="video/mp4"/>
+        </video>
         </div>
     </div>
 

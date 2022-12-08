@@ -10,7 +10,7 @@ import chibi from '../../../assets/chibi-jesse.png';
 import iconTwitter from '../../../assets/iconTwitter.png';
 import iconTwitch from '../../../assets/iconTwitch.png';
 import iconTiktok from '../../../assets/iconTiktok.png';
-// import video from '../../../assets/videos/JESSE.mp4'
+import Video from '../../../assets/Videos/Jesse.mp4'
 
 export default function Jesse(){
     return(
@@ -58,8 +58,8 @@ export default function Jesse(){
     <div className='container2'>
         <img src={jesseImg2} alt=""/>
         <div className='personal-video'>
-        <video width="100%" height="auto" controls autoPlay muted >
-            <source src="" type="video/mp4"/>
+        <video width="100%" height="auto" controls autoPlay loop muted>
+            <source src={Video} type="video/mp4"/>
         </video>
         </div>
     </div> 

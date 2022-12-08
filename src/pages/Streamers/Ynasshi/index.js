@@ -10,7 +10,7 @@ import chibi from '../../../assets/chibi-ynasshi.png';
 import iconTwitter from '../../../assets/iconTwitter.png';
 import iconTwitch from '../../../assets/iconTwitch.png';
 import iconTiktok from '../../../assets/iconTiktok.png';
-// import video from '../../../assets/videos/YNASSHI.mp4'
+import Video from '../../../assets/Videos/Ynasshi.mp4'
  
 export default function Ynasshi(){
     return(
@@ -59,8 +59,8 @@ export default function Ynasshi(){
     <div className='container2'>
         <img src={ynaImg2} alt=""/>
         <div className='personal-video'>
-        <video width="100%" height="auto" controls autoPlay muted >
-            <source src="" type="video/mp4"/>
+        <video width="100%" height="auto" controls autoPlay loop muted>
+         <source src={Video} type="video/mp4"/>
         </video>
         </div>
     </div>

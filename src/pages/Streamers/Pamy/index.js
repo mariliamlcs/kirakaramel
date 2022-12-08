@@ -11,7 +11,7 @@ import iconTwitter from '../../../assets/iconTwitter.png';
 import iconTwitch from '../../../assets/iconTwitch.png';
 import iconTiktok from '../../../assets/iconTiktok.png';
 import iconInstagram from '../../../assets/iconInstagramwhite.png';
-import Video from './Video.js'
+import Video from '../../../assets/Videos/Pamy.mp4'
 
 export default function Pamy(){
     return(
@@ -60,8 +60,8 @@ export default function Pamy(){
     <div className='container2'>
         <img src={pamyImg2} alt=""/>
         <div className='personal-video'>
-        <video width="100%" height="auto" controls autoPlay muted >
-            <Video />
+        <video width="100%" height="auto" controls autoPlay loop muted>
+            <source src={Video} type="video/mp4"/>
         </video>
         </div>
     </div>

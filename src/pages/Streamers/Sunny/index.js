@@ -9,6 +9,7 @@ import chibi from '../../../assets/chibi-sunny.png';
 import iconTwitter from '../../../assets/iconTwitter.png';
 import iconTwitch from '../../../assets/iconTwitch.png';
 import iconTiktok from '../../../assets/iconTiktok.png';
+import Video from '../../../assets/Videos/Sunny.mp4'
 
 export default function Sunny(){
     return(
@@ -56,7 +57,9 @@ export default function Sunny(){
     <div className='container2'>
         <img src={sunnyImg2} alt=""/>
         <div className='personal-video'>
-
+        <video width="100%" height="auto" controls autoPlay loop muted>
+            <source src={Video} type="video/mp4"/>
+        </video>    
         </div>
     </div>
 

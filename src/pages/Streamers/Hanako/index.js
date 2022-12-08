@@ -10,7 +10,7 @@ import chibi from '../../../assets/chibi-hanako.png';
 import iconTwitter from '../../../assets/iconTwitter.png';
 import iconTwitch from '../../../assets/iconTwitch.png';
 import iconTiktok from '../../../assets/iconTiktok.png';
-// import video from '../../../assets/videos/HANAKO.mp4'
+import Video from '../../../assets/Videos/Hanako.mp4'
 
 export default function Hanako(){
     return(
